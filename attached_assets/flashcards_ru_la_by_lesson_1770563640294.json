@@ -1,0 +1,3672 @@
+{
+  "Занятие 1": {
+    "Лексика": [
+      {
+        "ru": "3 лицо множ.число",
+        "la": "sunt"
+      },
+      {
+        "ru": "3 лицо, ед.число",
+        "la": "est"
+      },
+      {
+        "ru": "автор",
+        "la": "auctor, oris, m"
+      },
+      {
+        "ru": "активированный",
+        "la": "activatus, a, um"
+      },
+      {
+        "ru": "боль",
+        "la": "dolor, oris, m"
+      },
+      {
+        "ru": "большой палец киcти",
+        "la": "pollex, icis, m"
+      },
+      {
+        "ru": "большой палец стопы",
+        "la": "hallux, ucis, m"
+      },
+      {
+        "ru": "брюшко, живот",
+        "la": "venter, tris, m"
+      },
+      {
+        "ru": "верхняя челюсть",
+        "la": "maxilla, ae, f,"
+      },
+      {
+        "ru": "вещество",
+        "la": "substantia, ae, f"
+      },
+      {
+        "ru": "влага, жидкость как составная",
+        "la": "humor, oris, m"
+      },
+      {
+        "ru": "возвышение",
+        "la": "eminentia, ae, f"
+      },
+      {
+        "ru": "вырезка",
+        "la": "incisura, ae, f"
+      },
+      {
+        "ru": "выступ",
+        "la": "prominentia, ae, f"
+      },
+      {
+        "ru": "гребень",
+        "la": "crista, ae, f"
+      },
+      {
+        "ru": "жар",
+        "la": "calor, oris, m"
+      },
+      {
+        "ru": "железа",
+        "la": "glandula, ae, f"
+      },
+      {
+        "ru": "жидкость",
+        "la": "liquor, oris, m"
+      },
+      {
+        "ru": "жизнь",
+        "la": "vita, ae, f"
+      },
+      {
+        "ru": "изгиб",
+        "la": "flexura, ae, f"
+      },
+      {
+        "ru": "капсула",
+        "la": "capsula, ae, f"
+      },
+      {
+        "ru": "ключица",
+        "la": "clavicula, ae, f"
+      },
+      {
+        "ru": "краснота",
+        "la": "rubor, oris, m"
+      },
+      {
+        "ru": "крыло",
+        "la": "ala, ae, f"
+      },
+      {
+        "ru": "линия, строчка",
+        "la": "linea, ae, f"
+      },
+      {
+        "ru": "лопатка",
+        "la": "scapula, ae, f"
+      },
+      {
+        "ru": "мак",
+        "la": "Papaver, eris, n"
+      },
+      {
+        "ru": "мать, мозговая оболочка",
+        "la": "mater, tris, f"
+      },
+      {
+        "ru": "мозг спинной, костный, продолговатый; мозговое вещество",
+        "la": "medulla, ae, f"
+      },
+      {
+        "ru": "мочеточник",
+        "la": "ureter, eris, m"
+      },
+      {
+        "ru": "надколенник, надколенная чашечка,",
+        "la": "patella, ae f"
+      },
+      {
+        "ru": "нашатырно-анисовые капли",
+        "la": "liquor Ammonii anisatus"
+      },
+      {
+        "ru": "нашатырный спирт",
+        "la": "liquor Ammonii caustici"
+      },
+      {
+        "ru": "нижняя челюсть",
+        "la": "mandibula, ae, f"
+      },
+      {
+        "ru": "оболочка",
+        "la": "tunĭca, ae f"
+      },
+      {
+        "ru": "окно",
+        "la": "fenestra, ae, f"
+      },
+      {
+        "ru": "опускающая мышца",
+        "la": "depressor, oris, m"
+      },
+      {
+        "ru": "опухоль, припухлость",
+        "la": "tumor, oris, m"
+      },
+      {
+        "ru": "ость",
+        "la": "spina, ae, f"
+      },
+      {
+        "ru": "отверстие (грудной клетки, таза, пазухи)",
+        "la": "apertura, ae, f"
+      },
+      {
+        "ru": "отводящая мышца",
+        "la": "abductor, oris, m"
+      },
+      {
+        "ru": "отец",
+        "la": "pater, tris, m"
+      },
+      {
+        "ru": "перелом",
+        "la": "fractura, ae, f"
+      },
+      {
+        "ru": "перец",
+        "la": "Piper, eris, n"
+      },
+      {
+        "ru": "пластинка",
+        "la": "lamĭna, ae, f"
+      },
+      {
+        "ru": "поднимающая мышца",
+        "la": "levator, oris, m"
+      },
+      {
+        "ru": "позвонок",
+        "la": "vertebra, ae, f"
+      },
+      {
+        "ru": "приводящая мышца",
+        "la": "adductor, oris, m"
+      },
+      {
+        "ru": "пузырь",
+        "la": "vesīca, ae, f"
+      },
+      {
+        "ru": "разгибающая мышца",
+        "la": "extensor, oris, m"
+      },
+      {
+        "ru": "раковина",
+        "la": "concha, ae f"
+      },
+      {
+        "ru": "ребро",
+        "la": "costa, ae, f"
+      },
+      {
+        "ru": "сгибающая мышца",
+        "la": "flexor, oris, m"
+      },
+      {
+        "ru": "сердце",
+        "la": "cor, cordis, n"
+      },
+      {
+        "ru": "спайка",
+        "la": "commissura, ae f"
+      },
+      {
+        "ru": "столб, колонна",
+        "la": "columna, ae, f"
+      },
+      {
+        "ru": "стремя (стременная слуховая косточка)",
+        "la": "stapes, edis, m"
+      },
+      {
+        "ru": "сумка",
+        "la": "bursa, ae, f"
+      },
+      {
+        "ru": "ткань",
+        "la": "tela, ae, f"
+      },
+      {
+        "ru": "трещина, щель, борозда",
+        "la": "fissura, ae, f"
+      },
+      {
+        "ru": "тургор, состояние нормальной",
+        "la": "turgor, oris m"
+      },
+      {
+        "ru": "уголь",
+        "la": "carbo, oris, m"
+      },
+      {
+        "ru": "указательный палец",
+        "la": "index, icis, m"
+      },
+      {
+        "ru": "фасция, оболочка мышц",
+        "la": "fascia, ae, f"
+      },
+      {
+        "ru": "хлоралгидрат",
+        "la": "Chlorali hydras, atis, m"
+      },
+      {
+        "ru": "шов",
+        "la": "sutura, ae, f"
+      },
+      {
+        "ru": "эфир",
+        "la": "aether, eris, m"
+      },
+      {
+        "ru": "язык",
+        "la": "lingua, ae, f"
+      },
+      {
+        "ru": "яма (большая)",
+        "la": "fossa, ae, f"
+      },
+      {
+        "ru": "ямка (небольшая, до 5 мм)",
+        "la": "fovea, ae,f"
+      },
+      {
+        "ru": "ямка (ямочка, до 1 мм)",
+        "la": "fossula, ae, f"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Для автора = Для меня",
+        "la": "Pro auctore = Pro me"
+      },
+      {
+        "ru": "Знание - сила",
+        "la": "Scientia potentia est"
+      },
+      {
+        "ru": "Мягкая мозговая оболочка",
+        "la": "Pia mater"
+      },
+      {
+        "ru": "Почётный доктор",
+        "la": "Doctor honoris causa (D. h. c.)"
+      },
+      {
+        "ru": "Сытое брюхо к учению глухо",
+        "la": "Plenus venter non studet libenter"
+      },
+      {
+        "ru": "Твёрдая мозговая оболочка",
+        "la": "Dura mater"
+      },
+      {
+        "ru": "Труд венчает всё",
+        "la": "Labor omnia vincit"
+      },
+      {
+        "ru": "Через прямую кишку",
+        "la": "Per rectum"
+      },
+      {
+        "ru": "Через рот",
+        "la": "Per os"
+      },
+      {
+        "ru": "Через тернии звездам",
+        "la": "Per aspera ad astra"
+      }
+    ]
+  },
+  "Занятие 2": {
+    "Лексика": [
+      {
+        "ru": "1) вошь 2) ножка (в нерв.системе)",
+        "la": "pediculus, i, m"
+      },
+      {
+        "ru": "1) желудок 2) желудочек (мозговой, сердечный)",
+        "la": "ventricŭlus, i m"
+      },
+      {
+        "ru": "1) ось",
+        "la": "axis, is, m"
+      },
+      {
+        "ru": "1)червеобразный отросток",
+        "la": "appendix, icis, f"
+      },
+      {
+        "ru": "болезнь",
+        "la": "morbus, i m"
+      },
+      {
+        "ru": "борозда, бороздка",
+        "la": "sulcus, i m"
+      },
+      {
+        "ru": "бугорок",
+        "la": "tubercŭlum, i, n"
+      },
+      {
+        "ru": "вдавление",
+        "la": "impressio, onis, f"
+      },
+      {
+        "ru": "ветвь",
+        "la": "ramus, i m"
+      },
+      {
+        "ru": "впадина, полость",
+        "la": "cavitas, atis, f"
+      },
+      {
+        "ru": "впадина, углубление, карман, заворот",
+        "la": "recessus, us, m"
+      },
+      {
+        "ru": "выделение, отделение",
+        "la": "secretio, onis, f"
+      },
+      {
+        "ru": "выслушивание, аускультация",
+        "la": "auscultatio, onis, f"
+      },
+      {
+        "ru": "глаз",
+        "la": "oculus, i, m"
+      },
+      {
+        "ru": "глотка",
+        "la": "pharynx, yngis, m"
+      },
+      {
+        "ru": "головка маленькая",
+        "la": "capitŭlum, i, n"
+      },
+      {
+        "ru": "головной мозг",
+        "la": "cerebrum, i, n"
+      },
+      {
+        "ru": "гортань",
+        "la": "larynx, yngis, m"
+      },
+      {
+        "ru": "грудина",
+        "la": "sternum, i, n"
+      },
+      {
+        "ru": "грудная клетка",
+        "la": "thorax, acis, m"
+      },
+      {
+        "ru": "губа",
+        "la": "labium, ii, n"
+      },
+      {
+        "ru": "дело, вещь, материал, предмет",
+        "la": "res, ēi, f"
+      },
+      {
+        "ru": "диск",
+        "la": "discus, i, m"
+      },
+      {
+        "ru": "длина",
+        "la": "logitudo, inis f"
+      },
+      {
+        "ru": "дно",
+        "la": "fundus, i, m"
+      },
+      {
+        "ru": "дуга",
+        "la": "arcus, us, m"
+      },
+      {
+        "ru": "дёготь",
+        "la": "pix liquida"
+      },
+      {
+        "ru": "затухание, ослабление",
+        "la": "remissio, onis, f"
+      },
+      {
+        "ru": "зуб",
+        "la": "dens, dentis, m"
+      },
+      {
+        "ru": "извлечение",
+        "la": "extractio, onis, f"
+      },
+      {
+        "ru": "инъекция, вливание",
+        "la": "injectio, onis, f"
+      },
+      {
+        "ru": "кариес, гниль",
+        "la": "caries, ēi f"
+      },
+      {
+        "ru": "кишка",
+        "la": "intestinum, i, n"
+      },
+      {
+        "ru": "колено",
+        "la": "genu, us, n"
+      },
+      {
+        "ru": "конец конечностей или костей",
+        "la": "extremitas, atis, f"
+      },
+      {
+        "ru": "конечность, часть тела",
+        "la": "membrum, i, n"
+      },
+      {
+        "ru": "копчик, кость копчика, копчиковая",
+        "la": "coccyx, ygis, m"
+      },
+      {
+        "ru": "корень",
+        "la": "radix, icis, f"
+      },
+      {
+        "ru": "кровь",
+        "la": "sanguis, inis, m"
+      },
+      {
+        "ru": "лицо, поверхность",
+        "la": "facies, ēi, f"
+      },
+      {
+        "ru": "лучевая кость",
+        "la": "radius, i, m"
+      },
+      {
+        "ru": "материнство",
+        "la": "maternitas, atis f"
+      },
+      {
+        "ru": "мозговая оболочка",
+        "la": "meninx, ngis, f"
+      },
+      {
+        "ru": "мышца",
+        "la": "musculus, i, m"
+      },
+      {
+        "ru": "мыщелок",
+        "la": "condўlus, i m"
+      },
+      {
+        "ru": "наперстянка",
+        "la": "Digitalis, is, f"
+      },
+      {
+        "ru": "небольшой канал, каналец",
+        "la": "canalicŭlus, i, m"
+      },
+      {
+        "ru": "нерв",
+        "la": "nervus, i m"
+      },
+      {
+        "ru": "новорожденный",
+        "la": "neonatus, i, m"
+      },
+      {
+        "ru": "ножка, стебель",
+        "la": "peduncŭlus, i, m"
+      },
+      {
+        "ru": "нос",
+        "la": "nasus, i m"
+      },
+      {
+        "ru": "нёбо",
+        "la": "palatum, i, n"
+      },
+      {
+        "ru": "околоушная слюнная железа",
+        "la": "parotis, idis, f"
+      },
+      {
+        "ru": "орган",
+        "la": "organon (um) i n"
+      },
+      {
+        "ru": "отросток",
+        "la": "processus, us, m"
+      },
+      {
+        "ru": "пазуха, синус",
+        "la": "sinus, us, m"
+      },
+      {
+        "ru": "пальпация, прощупывание",
+        "la": "palpatio, onis, f"
+      },
+      {
+        "ru": "перегородка",
+        "la": "septum, i, n"
+      },
+      {
+        "ru": "переливание",
+        "la": "transfusio, onis, f"
+      },
+      {
+        "ru": "перкуссия, простукивание",
+        "la": "percussio, onis, f"
+      },
+      {
+        "ru": "плюсна",
+        "la": "metatartus, i m"
+      },
+      {
+        "ru": "поверхность, верхняя сторона",
+        "la": "superficies, ēi, f"
+      },
+      {
+        "ru": "подвижность",
+        "la": "mobilitas, atis f"
+      },
+      {
+        "ru": "поджелудочная железа",
+        "la": "pancreas, atis, n"
+      },
+      {
+        "ru": "полость",
+        "la": "cavum, i, n"
+      },
+      {
+        "ru": "пора, отверстие (слуховое)",
+        "la": "porus, i m"
+      },
+      {
+        "ru": "порошок",
+        "la": "pulvis, eris, m"
+      },
+      {
+        "ru": "предлежание",
+        "la": "praesentatio, onis f"
+      },
+      {
+        "ru": "предплюсна",
+        "la": "tarsus, i m"
+      },
+      {
+        "ru": "проток",
+        "la": "ductus, us, m"
+      },
+      {
+        "ru": "радужка, радужная оболочка глаза",
+        "la": "iris, idis, f"
+      },
+      {
+        "ru": "раствор",
+        "la": "solutio, onis, f"
+      },
+      {
+        "ru": "рахит (общее заболевание организма,",
+        "la": "rachitis, idis, f"
+      },
+      {
+        "ru": "рог, рожок",
+        "la": "cornu, us, n"
+      },
+      {
+        "ru": "родничок",
+        "la": "fonticŭlus, i, m"
+      },
+      {
+        "ru": "рудимент (остаточный орган, неразвившийся зачаток)",
+        "la": "rudimentum, i, n"
+      },
+      {
+        "ru": "рукоятка",
+        "la": "manubrium, i, n"
+      },
+      {
+        "ru": "сахар",
+        "la": "Saccharum, i, n"
+      },
+      {
+        "ru": "свод",
+        "la": "fornix, icis, m"
+      },
+      {
+        "ru": "связка",
+        "la": "ligamentum, i, n"
+      },
+      {
+        "ru": "сегмент",
+        "la": "segmentum, i n"
+      },
+      {
+        "ru": "скелет",
+        "la": "skeleton (sceletum) i, n"
+      },
+      {
+        "ru": "слизь",
+        "la": "mucilago, inis, f"
+      },
+      {
+        "ru": "слой, пласт",
+        "la": "stratum, i, n"
+      },
+      {
+        "ru": "смола",
+        "la": "pix, cis, f"
+      },
+      {
+        "ru": "сонная артерия",
+        "la": "carotis, idis, f"
+      },
+      {
+        "ru": "сосуд",
+        "la": "vas, vasis, n"
+      },
+      {
+        "ru": "сплетение",
+        "la": "plexus, us, m"
+      },
+      {
+        "ru": "сухожилие",
+        "la": "tendo, inis, m"
+      },
+      {
+        "ru": "таранная кость",
+        "la": "talus, i m"
+      },
+      {
+        "ru": "термопсис",
+        "la": "Thermopsis, idis, f"
+      },
+      {
+        "ru": "угол",
+        "la": "angulus, i, m"
+      },
+      {
+        "ru": "узел, ганглий",
+        "la": "ganglion (um), ii, n"
+      },
+      {
+        "ru": "фаланга, кость пальца",
+        "la": "phalanx, ngis, f"
+      },
+      {
+        "ru": "фосфат",
+        "la": "phosphas, atis, m"
+      },
+      {
+        "ru": "функция",
+        "la": "functio, onis f"
+      },
+      {
+        "ru": "ход, проход, канал",
+        "la": "meatus, us, m"
+      },
+      {
+        "ru": "хрусталик",
+        "la": "lens, lentis, f"
+      },
+      {
+        "ru": "череп",
+        "la": "cranium, ii, n"
+      },
+      {
+        "ru": "чувство, ощущение",
+        "la": "sensus, us, m"
+      },
+      {
+        "ru": "шейка, шея",
+        "la": "collum, i, n"
+      },
+      {
+        "ru": "ширина",
+        "la": "latitudo, inis f"
+      },
+      {
+        "ru": "щель, зияние, расщелина",
+        "la": "hiatus, us, m"
+      },
+      {
+        "ru": "ядро",
+        "la": "nucleus, i m"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Есть мера в вещах (делах)",
+        "la": "Est modus in rebus"
+      },
+      {
+        "ru": "Золотая середина",
+        "la": "Aurea mediocritas"
+      },
+      {
+        "ru": "Не идти вперед, значит идти назад",
+        "la": "Non progrĕdi est regrĕdi"
+      },
+      {
+        "ru": "Неведомая земля",
+        "la": "Terra incognĭta"
+      },
+      {
+        "ru": "Привычка - вторая натура",
+        "la": "Consuetudo est altera natura"
+      },
+      {
+        "ru": "Существуют четыре признака",
+        "la": "Notae inflammationis sunt quattuor:"
+      }
+    ]
+  },
+  "Занятие 3": {
+    "Лексика": [
+      {
+        "ru": "(меж)сигмовидный",
+        "la": "(inter)sigmoidĕus, a, um"
+      },
+      {
+        "ru": "-сесамовидный (похожий на кунжутное семя)",
+        "la": "sesamoidĕus, a, um"
+      },
+      {
+        "ru": "белый",
+        "la": "albus, a, um"
+      },
+      {
+        "ru": "венечный (отросток)",
+        "la": "coronoidĕus, a, um"
+      },
+      {
+        "ru": "висок, время",
+        "la": "tempus, oris, n"
+      },
+      {
+        "ru": "внутренний",
+        "la": "internus, a, um"
+      },
+      {
+        "ru": "внутренний орган",
+        "la": "viscus, eris, n"
+      },
+      {
+        "ru": "воздухоносный",
+        "la": "pneumatĭcus, a, um"
+      },
+      {
+        "ru": "гидрокарбонат",
+        "la": "hydrocarbonas, atis, m"
+      },
+      {
+        "ru": "глоточный",
+        "la": "pharyngĕus, a, um"
+      },
+      {
+        "ru": "глубокий",
+        "la": "profundus, a, um"
+      },
+      {
+        "ru": "гной",
+        "la": "pus, puris, n"
+      },
+      {
+        "ru": "горицвет",
+        "la": "Adonis, idis, m"
+      },
+      {
+        "ru": "гортанный",
+        "la": "laryngĕus, a, um"
+      },
+      {
+        "ru": "грамм",
+        "la": "gramma, atis, n"
+      },
+      {
+        "ru": "грудной",
+        "la": "thoracĭcus, a, um"
+      },
+      {
+        "ru": "грудь",
+        "la": "pectus, oris, n"
+      },
+      {
+        "ru": "губчатый",
+        "la": "spongiosus, a, um"
+      },
+      {
+        "ru": "дети",
+        "la": "liberi, orum m"
+      },
+      {
+        "ru": "дециграмм (0,1 г)",
+        "la": "decigramma, atis, n"
+      },
+      {
+        "ru": "диафрагма",
+        "la": "diaphragma, atis, n"
+      },
+      {
+        "ru": "длинный",
+        "la": "longus, a, um"
+      },
+      {
+        "ru": "желчь",
+        "la": "fel, fellis, n"
+      },
+      {
+        "ru": "живот",
+        "la": "abdomen, inis, n"
+      },
+      {
+        "ru": "животное",
+        "la": "animal, alis, n"
+      },
+      {
+        "ru": "жёлтый",
+        "la": "flavus, a, um"
+      },
+      {
+        "ru": "запирающий",
+        "la": "obturatorius, a, um"
+      },
+      {
+        "ru": "затылок",
+        "la": "occiput, itis, n"
+      },
+      {
+        "ru": "зрительный",
+        "la": "opticus, a, um"
+      },
+      {
+        "ru": "истинный",
+        "la": "verus, a, um"
+      },
+      {
+        "ru": "каменистый",
+        "la": "petrosus, a, um"
+      },
+      {
+        "ru": "квасцы",
+        "la": "alumen, inis, n"
+      },
+      {
+        "ru": "клубочек",
+        "la": "glomus, eris, n"
+      },
+      {
+        "ru": "клювовидный",
+        "la": "coracoidĕus, a, um"
+      },
+      {
+        "ru": "книга, сочинение",
+        "la": "liber, bri m"
+      },
+      {
+        "ru": "кодеин",
+        "la": "Codeinum, i, n"
+      },
+      {
+        "ru": "компактный, плотный",
+        "la": "compactus, a, um"
+      },
+      {
+        "ru": "копчиковый",
+        "la": "coccygĕus, a, um"
+      },
+      {
+        "ru": "косой",
+        "la": "obliquus, a, um"
+      },
+      {
+        "ru": "костный",
+        "la": "ossĕus, a, um"
+      },
+      {
+        "ru": "крестцовый",
+        "la": "sacer, cra, crum"
+      },
+      {
+        "ru": "кровеносный",
+        "la": "sanguifer, ĕra, ĕrum"
+      },
+      {
+        "ru": "крыловидный",
+        "la": "pterygoidĕus, , a, um"
+      },
+      {
+        "ru": "крыша, покрышка",
+        "la": "tegmen, inis, n"
+      },
+      {
+        "ru": "левый",
+        "la": "sinister, tra, trum"
+      },
+      {
+        "ru": "лекарство",
+        "la": "medicamen, inis n"
+      },
+      {
+        "ru": "лечебный, целебный",
+        "la": "medicatus, a, um"
+      },
+      {
+        "ru": "ложный",
+        "la": "spurius, a, um"
+      },
+      {
+        "ru": "миллиграмм (0,001 г)",
+        "la": "milligramma, atis, n"
+      },
+      {
+        "ru": "надчревный",
+        "la": "epigastrĭcus, a, um"
+      },
+      {
+        "ru": "наружный",
+        "la": "externus, a, um"
+      },
+      {
+        "ru": "нарушенный, поврежденный",
+        "la": "laesus, a, um"
+      },
+      {
+        "ru": "новообразование",
+        "la": "neoplasma, atis, n"
+      },
+      {
+        "ru": "нёбный",
+        "la": "palatīnus, a, um"
+      },
+      {
+        "ru": "остистый",
+        "la": "spinosus, a, um"
+      },
+      {
+        "ru": "остов",
+        "la": "stroma, atis, n"
+      },
+      {
+        "ru": "острый",
+        "la": "acutus, a, um"
+      },
+      {
+        "ru": "отёк",
+        "la": "oedema, atis, n"
+      },
+      {
+        "ru": "перекрест",
+        "la": "chiasma, atis, n"
+      },
+      {
+        "ru": "печень (анат., клин.)",
+        "la": "hepar, atis, n"
+      },
+      {
+        "ru": "печень (фарм.)",
+        "la": "iecur, oris, n"
+      },
+      {
+        "ru": "питательный",
+        "la": "nutritius, a, um"
+      },
+      {
+        "ru": "поперечный, идущий поперек",
+        "la": "transversarius, a, um"
+      },
+      {
+        "ru": "поперечный, расположенный или",
+        "la": "transversus, a, um"
+      },
+      {
+        "ru": "почка",
+        "la": "ren, renis, m"
+      },
+      {
+        "ru": "правый",
+        "la": "dexter, tra, trum"
+      },
+      {
+        "ru": "промежуточный",
+        "la": "intermedius, a, um"
+      },
+      {
+        "ru": "рана",
+        "la": "vulnus, eris, n"
+      },
+      {
+        "ru": "ровный, гладкий",
+        "la": "planus, a, um"
+      },
+      {
+        "ru": "рожь",
+        "la": "Secale, is, n"
+      },
+      {
+        "ru": "рыбий жир (тресковый)",
+        "la": "oleum iecoris (Aselli)"
+      },
+      {
+        "ru": "сантиграмм (0,01 г)",
+        "la": "centigramma, atis, n"
+      },
+      {
+        "ru": "свободный",
+        "la": "libĕr, ĕra, ĕrum"
+      },
+      {
+        "ru": "селезенка",
+        "la": "lien, ēnis m"
+      },
+      {
+        "ru": "семя",
+        "la": "semen, inis, n"
+      },
+      {
+        "ru": "сера",
+        "la": "Sulfur, uris, n"
+      },
+      {
+        "ru": "сеть",
+        "la": "rete, is, n"
+      },
+      {
+        "ru": "система",
+        "la": "systema, atis, n"
+      },
+      {
+        "ru": "скула",
+        "la": "zygoma, atis, n"
+      },
+      {
+        "ru": "скуловой",
+        "la": "zygomatĭcus, a, um"
+      },
+      {
+        "ru": "слизистый",
+        "la": "mucosus, a, um"
+      },
+      {
+        "ru": "слуховой",
+        "la": "acustĭcus, a, um"
+      },
+      {
+        "ru": "смешанный",
+        "la": "mixtus, a um"
+      },
+      {
+        "ru": "соединительный",
+        "la": "conjunctivus, a, um"
+      },
+      {
+        "ru": "сонный",
+        "la": "carotĭcus, a, um"
+      },
+      {
+        "ru": "спорынья",
+        "la": "Secale cornutum"
+      },
+      {
+        "ru": "срединный, лежащий на средней",
+        "la": "medianus, a, um"
+      },
+      {
+        "ru": "средний",
+        "la": "medius, a, um"
+      },
+      {
+        "ru": "стрихнин",
+        "la": "Strychninum, i, n"
+      },
+      {
+        "ru": "твёрдый",
+        "la": "durus, a, um"
+      },
+      {
+        "ru": "толстый, жирный, густой",
+        "la": "crassus, a, um"
+      },
+      {
+        "ru": "трапециевидный",
+        "la": "trapezoidĕus, a, um"
+      },
+      {
+        "ru": "трапециевидный (мышца)",
+        "la": "trapezius, a, um"
+      },
+      {
+        "ru": "хрящевой",
+        "la": "cartilaginĕus, a, um"
+      },
+      {
+        "ru": "чешуйчатый",
+        "la": "squamosus, a, um"
+      },
+      {
+        "ru": "шиловидный",
+        "la": "styloidĕus, a, um"
+      },
+      {
+        "ru": "широкий",
+        "la": "latus, a, um"
+      },
+      {
+        "ru": "щитовидный",
+        "la": "thyreoidĕus, a um"
+      },
+      {
+        "ru": "язва",
+        "la": "ulcus, eris, n"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "«Тайно»",
+        "la": "In pectore"
+      },
+      {
+        "ru": "В драже",
+        "la": "In dragee"
+      },
+      {
+        "ru": "В таблетках, покрытых оболочкой",
+        "la": "In tabulettis obductis"
+      },
+      {
+        "ru": "Время лечит раны",
+        "la": "Tempus vulnera sanat"
+      },
+      {
+        "ru": "Всё прекрасное редко",
+        "la": "Omnia praeclara rara"
+      },
+      {
+        "ru": "Замкнутый круг",
+        "la": "Circulus vitiosus"
+      },
+      {
+        "ru": "Здоровый дух в здоровом теле",
+        "la": "Mens sana in corpore sano"
+      },
+      {
+        "ru": "Нет розы без шипов",
+        "la": "Ubi mel, ibi fel"
+      },
+      {
+        "ru": "О времена, о нравы!",
+        "la": "O tempora, o mores!"
+      },
+      {
+        "ru": "Путь жизни (Биография)",
+        "la": "Curriculum vitae"
+      },
+      {
+        "ru": "Сколько голов, столько умов",
+        "la": "Quod capĭta, tot sensus"
+      },
+      {
+        "ru": "Чистая доска",
+        "la": "Tabula rasa"
+      }
+    ]
+  },
+  "Занятие 4": {
+    "Лексика": [
+      {
+        "ru": "атлант, 1-й шейный позвонок",
+        "la": "Atlas, ntis, m"
+      },
+      {
+        "ru": "бедро",
+        "la": "femur, ŏris, n"
+      },
+      {
+        "ru": "бугор",
+        "la": "tuber, ĕris, n"
+      },
+      {
+        "ru": "бугристость",
+        "la": "tuberositas, atis, f"
+      },
+      {
+        "ru": "вдавление",
+        "la": "impressio, onis, f"
+      },
+      {
+        "ru": "вертел",
+        "la": "trochanter, ēris, m"
+      },
+      {
+        "ru": "верхушка",
+        "la": "apex, ĭcis, m"
+      },
+      {
+        "ru": "второй шейный позвонок",
+        "la": "axis, is, m"
+      },
+      {
+        "ru": "голень, ножка",
+        "la": "crus, uris, n"
+      },
+      {
+        "ru": "голова, головка",
+        "la": "caput, ĭtis, n"
+      },
+      {
+        "ru": "детство",
+        "la": "puerilitas, atis f"
+      },
+      {
+        "ru": "канал",
+        "la": "canalis, is, m"
+      },
+      {
+        "ru": "конец, конечность",
+        "la": "extremitas, ātis, f"
+      },
+      {
+        "ru": "кора",
+        "la": "cortex, ĭcis m"
+      },
+      {
+        "ru": "кость",
+        "la": "os, ossis, n"
+      },
+      {
+        "ru": "край",
+        "la": "margo, ĭnis, m"
+      },
+      {
+        "ru": "лоб",
+        "la": "frons, ntis, f"
+      },
+      {
+        "ru": "лёгкое",
+        "la": "pulmo, onis, m"
+      },
+      {
+        "ru": "область",
+        "la": "regio, onis, f"
+      },
+      {
+        "ru": "окостенение",
+        "la": "ossificatio, onis f"
+      },
+      {
+        "ru": "основание",
+        "la": "basis, is, f"
+      },
+      {
+        "ru": "отверстие",
+        "la": "foramen, ĭnis, n"
+      },
+      {
+        "ru": "рот, устье",
+        "la": "os, oris, n"
+      },
+      {
+        "ru": "свобода",
+        "la": "libertas, atis f"
+      },
+      {
+        "ru": "сошник",
+        "la": "vomer, ĕris, m"
+      },
+      {
+        "ru": "стенка",
+        "la": "paries, ĕtis, m"
+      },
+      {
+        "ru": "стопа",
+        "la": "pes, pedis, m"
+      },
+      {
+        "ru": "сустав",
+        "la": "articulatio, onis, f"
+      },
+      {
+        "ru": "тело",
+        "la": "corpus, ŏris, n"
+      },
+      {
+        "ru": "труп",
+        "la": "cadaver, ěris, n"
+      },
+      {
+        "ru": "формирование, образование",
+        "la": "formatio, onis f"
+      },
+      {
+        "ru": "хрящ",
+        "la": "cartilago, inis, f"
+      },
+      {
+        "ru": "часть",
+        "la": "pars, partis, f"
+      },
+      {
+        "ru": "человек",
+        "la": "homo, ĭnis, m"
+      },
+      {
+        "ru": "шея",
+        "la": "cervix, īcis, f"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Кормящая мать, мать-кормилица",
+        "la": "Alma mater"
+      },
+      {
+        "ru": "Наружность обманчива",
+        "la": "Frontis nulla fides"
+      },
+      {
+        "ru": "Поздно приходящим - кости",
+        "la": "Sero venientĭbus ossa"
+      }
+    ]
+  },
+  "Занятие 5": {
+    "Лексика": [
+      {
+        "ru": "cоль",
+        "la": "sal, alis, n"
+      },
+      {
+        "ru": "альвеола, луночка",
+        "la": "alveolus, i, m"
+      },
+      {
+        "ru": "артериальный",
+        "la": "arteriosus, a, um"
+      },
+      {
+        "ru": "благородный, милостливый",
+        "la": "liberalis, e"
+      },
+      {
+        "ru": "боковой",
+        "la": "lateralis, e"
+      },
+      {
+        "ru": "венечный",
+        "la": "coronalis, e"
+      },
+      {
+        "ru": "венозный",
+        "la": "venosus, a, um"
+      },
+      {
+        "ru": "грудной",
+        "la": "pectoralis, e"
+      },
+      {
+        "ru": "доброкачественный",
+        "la": "benignus, a, um"
+      },
+      {
+        "ru": "дорсальный, тыльный",
+        "la": "dorsalis, e"
+      },
+      {
+        "ru": "желчь",
+        "la": "bilis, is, f"
+      },
+      {
+        "ru": "животное",
+        "la": "animal, alis, n"
+      },
+      {
+        "ru": "заразный",
+        "la": "contagiosus, a, um"
+      },
+      {
+        "ru": "затылочный",
+        "la": "occipitalis, e"
+      },
+      {
+        "ru": "здоровый",
+        "la": "sanus, a, um"
+      },
+      {
+        "ru": "злокачественный",
+        "la": "malignus, a, um"
+      },
+      {
+        "ru": "клиновидный",
+        "la": "sphenoidalis, e"
+      },
+      {
+        "ru": "кожа",
+        "la": "cutis, is, f"
+      },
+      {
+        "ru": "кожный",
+        "la": "cutaneus, a, um"
+      },
+      {
+        "ru": "корковый, кортикальный",
+        "la": "corticalis, e"
+      },
+      {
+        "ru": "короткий",
+        "la": "brevis, e"
+      },
+      {
+        "ru": "костный",
+        "la": "osseus, a, um"
+      },
+      {
+        "ru": "крестцовый",
+        "la": "sacralis, e"
+      },
+      {
+        "ru": "ладьевидный",
+        "la": "navicularis, e"
+      },
+      {
+        "ru": "лечение",
+        "la": "curatio, onis, f"
+      },
+      {
+        "ru": "лимфатический",
+        "la": "lymphaticus, a, um"
+      },
+      {
+        "ru": "лобный",
+        "la": "frontalis, e"
+      },
+      {
+        "ru": "ложка",
+        "la": "cochlear, aris n"
+      },
+      {
+        "ru": "масляный",
+        "la": "oleosus, a, um"
+      },
+      {
+        "ru": "материнский",
+        "la": "maternus, a, um"
+      },
+      {
+        "ru": "младенец, ребенок",
+        "la": "infans, ntis m (f)"
+      },
+      {
+        "ru": "молоко",
+        "la": "lac, lactis, n"
+      },
+      {
+        "ru": "мыщелковый",
+        "la": "condylaris, e"
+      },
+      {
+        "ru": "мягкий",
+        "la": "mollis, e"
+      },
+      {
+        "ru": "носовой",
+        "la": "nasalis, e"
+      },
+      {
+        "ru": "общий",
+        "la": "communis, e"
+      },
+      {
+        "ru": "обычно вентральный, брюшной",
+        "la": "abdominalis,e"
+      },
+      {
+        "ru": "опасный",
+        "la": "periculosus, a, um"
+      },
+      {
+        "ru": "осаждённый",
+        "la": "praecipitatus, a, um"
+      },
+      {
+        "ru": "основной",
+        "la": "basilaris, e"
+      },
+      {
+        "ru": "относящийся к рождению, родной",
+        "la": "natalis, e"
+      },
+      {
+        "ru": "поверхностный",
+        "la": "superficialis, e"
+      },
+      {
+        "ru": "полукружный",
+        "la": "semicircularis, e"
+      },
+      {
+        "ru": "поперечный",
+        "la": "transversalis, e"
+      },
+      {
+        "ru": "приближенный, ближайший",
+        "la": "proximalis, e"
+      },
+      {
+        "ru": "продольный",
+        "la": "longitudinalis, e"
+      },
+      {
+        "ru": "решетчатый",
+        "la": "ethmoidalis, e"
+      },
+      {
+        "ru": "родимое пятно",
+        "la": "naevus, i m"
+      },
+      {
+        "ru": "спиртовой",
+        "la": "spirituosus, a, um"
+      },
+      {
+        "ru": "срединный, медиальный",
+        "la": "medialis, e"
+      },
+      {
+        "ru": "стреловидный",
+        "la": "sagittalis, e"
+      },
+      {
+        "ru": "суставной",
+        "la": "articularis, e"
+      },
+      {
+        "ru": "трубчатый",
+        "la": "tubularis, e"
+      },
+      {
+        "ru": "удалённый",
+        "la": "distalis, e"
+      },
+      {
+        "ru": "улитка, раковина внутреннего уха",
+        "la": "cochlea, ae f"
+      },
+      {
+        "ru": "ухо",
+        "la": "auris, is, f"
+      },
+      {
+        "ru": "хвостовой",
+        "la": "caudalis, e"
+      },
+      {
+        "ru": "черепной",
+        "la": "cranialis, e"
+      },
+      {
+        "ru": "чистый",
+        "la": "purus, a, um"
+      },
+      {
+        "ru": "чёрный",
+        "la": "niger, gra, grum"
+      },
+      {
+        "ru": "шейный",
+        "la": "cervicalis, e"
+      },
+      {
+        "ru": "шпора",
+        "la": "calcar, aris, n"
+      },
+      {
+        "ru": "щёчный",
+        "la": "buccalis, e"
+      },
+      {
+        "ru": "эритромицин",
+        "la": "Erythromycinum, i, n"
+      },
+      {
+        "ru": "эуфиллин",
+        "la": "Euphyllinum, i, n"
+      },
+      {
+        "ru": "эфедрин",
+        "la": "Ephedrinum, i, n"
+      },
+      {
+        "ru": "ягодицы (букв.седалище)",
+        "la": "nates, ium, f (Pl)"
+      },
+      {
+        "ru": "ярёмный",
+        "la": "jugularis, e"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Жизнь коротка, искусство вечно",
+        "la": "Vita brevis, ars longa"
+      },
+      {
+        "ru": "Лень - мать всех пороков",
+        "la": "Pigritia mater vitiorum"
+      },
+      {
+        "ru": "Необходимое условие",
+        "la": "Conditio sine qua non"
+      },
+      {
+        "ru": "Общее состояние",
+        "la": "Status communis"
+      },
+      {
+        "ru": "По всем правилам искусства",
+        "la": "Lege artis"
+      },
+      {
+        "ru": "Святая святых",
+        "la": "Sancta sanctorum"
+      },
+      {
+        "ru": "Человек разумный",
+        "la": "Homo sapiens"
+      }
+    ]
+  },
+  "Занятие 6": {
+    "Лексика": [
+      {
+        "ru": "большой или больший",
+        "la": "major, majus"
+      },
+      {
+        "ru": "верхний",
+        "la": "superior, ius"
+      },
+      {
+        "ru": "задний",
+        "la": "posterior, ius"
+      },
+      {
+        "ru": "изгиб",
+        "la": "flexura, ae f"
+      },
+      {
+        "ru": "истощение",
+        "la": "tabes, is, f"
+      },
+      {
+        "ru": "йод",
+        "la": "Iodum, i, n"
+      },
+      {
+        "ru": "кашель",
+        "la": "tussis, is, f"
+      },
+      {
+        "ru": "коклюш",
+        "la": "pertussis, is, f"
+      },
+      {
+        "ru": "кровеносный",
+        "la": "sanguifĕr, ĕra, ĕrum"
+      },
+      {
+        "ru": "лихорадка",
+        "la": "febris, is, f"
+      },
+      {
+        "ru": "малый или меньший",
+        "la": "minor, minus"
+      },
+      {
+        "ru": "нижний",
+        "la": "inferior, ius"
+      },
+      {
+        "ru": "переднеголовной",
+        "la": "cephaloanterior, ius"
+      },
+      {
+        "ru": "переднетеменной",
+        "la": "parieteanterior, ius"
+      },
+      {
+        "ru": "передний",
+        "la": "anterior, ius"
+      },
+      {
+        "ru": "повреждение, травма",
+        "la": "trauma, atis, n"
+      },
+      {
+        "ru": "симптом, признак",
+        "la": "symptoma, atis n"
+      },
+      {
+        "ru": "система",
+        "la": "systema, atis n"
+      },
+      {
+        "ru": "таз",
+        "la": "pelvis, is, f"
+      },
+      {
+        "ru": "танин",
+        "la": "Tanninum, i, n"
+      },
+      {
+        "ru": "феноксиметилпенициллин",
+        "la": "Phenoxymethylpenicillinum, i n"
+      },
+      {
+        "ru": "фтивазид",
+        "la": "Phthivazidum, i, n"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "«Из последующего»; исходя из опыта,",
+        "la": "A posteriori"
+      },
+      {
+        "ru": "Для наркоза",
+        "la": "Pro narcosi"
+      },
+      {
+        "ru": "Какова жизнь, таков и конец",
+        "la": "Qualis vita, finis ita"
+      },
+      {
+        "ru": "Место (наи)меньшего сопротивления",
+        "la": "Locus minoris resistentiae"
+      },
+      {
+        "ru": "На приём",
+        "la": "Pro dosi"
+      },
+      {
+        "ru": "Опыт - наилучший учитель",
+        "la": "Usus est optimus magister"
+      },
+      {
+        "ru": "От кашля",
+        "la": "Contra tussim"
+      },
+      {
+        "ru": "Припоминание обстоятельств",
+        "la": "Anamnesis morbi"
+      },
+      {
+        "ru": "Припоминание обстоятельств жизни",
+        "la": "Anamnesis vitae"
+      },
+      {
+        "ru": "Светя другим, сгораю сам",
+        "la": "Aliis inserviendo consumor"
+      }
+    ]
+  },
+  "Занятие 9": {
+    "Лексика": [
+      {
+        "ru": "1) вид (в ботанике)",
+        "la": "species, ēi, f"
+      },
+      {
+        "ru": "1) пристеночный, париетальный",
+        "la": "parietalis, e"
+      },
+      {
+        "ru": "1) растение; 2) подошва",
+        "la": "planta, ae, f"
+      },
+      {
+        "ru": "ампула",
+        "la": "ampulla, ae, f"
+      },
+      {
+        "ru": "бешенство",
+        "la": "rabies, ēi, f"
+      },
+      {
+        "ru": "блок",
+        "la": "trochlea, ae f"
+      },
+      {
+        "ru": "большая берцовая кость",
+        "la": "tibia, ae, f"
+      },
+      {
+        "ru": "бумага",
+        "la": "charta, ae, f"
+      },
+      {
+        "ru": "вещество",
+        "la": "substantia, ae, f"
+      },
+      {
+        "ru": "влагалищный, вагинальный",
+        "la": "vaginalis, e"
+      },
+      {
+        "ru": "внутренностный, висцеральный",
+        "la": "visceralis, e"
+      },
+      {
+        "ru": "вода",
+        "la": "aqua, ae, f"
+      },
+      {
+        "ru": "воротная вена",
+        "la": "vena portae"
+      },
+      {
+        "ru": "воспаление лёгких",
+        "la": "pneumonia, ae, f"
+      },
+      {
+        "ru": "глазница",
+        "la": "orbita, ae, f"
+      },
+      {
+        "ru": "горький",
+        "la": "amarus, a, um"
+      },
+      {
+        "ru": "грудной",
+        "la": "pectoralis, e"
+      },
+      {
+        "ru": "грудной сбор",
+        "la": "species pectorales"
+      },
+      {
+        "ru": "двойной",
+        "la": "duplex, ĭcis"
+      },
+      {
+        "ru": "двуглавый",
+        "la": "biceps, bicĭpitis"
+      },
+      {
+        "ru": "день",
+        "la": "dies, ēi, m"
+      },
+      {
+        "ru": "желудочный",
+        "la": "species gastricae"
+      },
+      {
+        "ru": "желчегонный",
+        "la": "species cholagogae"
+      },
+      {
+        "ru": "заслонка",
+        "la": "valvula, ae, f"
+      },
+      {
+        "ru": "капиллярный (волосной)",
+        "la": "capillaris, e"
+      },
+      {
+        "ru": "капля",
+        "la": "gutta, ae, f"
+      },
+      {
+        "ru": "клетка, клеточка",
+        "la": "cellula, ae, f"
+      },
+      {
+        "ru": "клиновидный",
+        "la": "sphenoidalis, e"
+      },
+      {
+        "ru": "корковый",
+        "la": "corticalis, e"
+      },
+      {
+        "ru": "круглый",
+        "la": "teres, terĕtis"
+      },
+      {
+        "ru": "ладонный",
+        "la": "palmaris, e"
+      },
+      {
+        "ru": "лесной",
+        "la": "silvester, tris, tre"
+      },
+      {
+        "ru": "локтевая кость",
+        "la": "ulna, ae, f"
+      },
+      {
+        "ru": "локтевой",
+        "la": "ulnaris, e"
+      },
+      {
+        "ru": "лучевой",
+        "la": "radialis, e"
+      },
+      {
+        "ru": "лёгочный",
+        "la": "pulmonalis, e"
+      },
+      {
+        "ru": "малая берцовая кость",
+        "la": "fibula, ae, f"
+      },
+      {
+        "ru": "миндалина",
+        "la": "tonsilla, ae, f"
+      },
+      {
+        "ru": "младенчество, детство (до 1-го года жизни)",
+        "la": "infantia, ae f"
+      },
+      {
+        "ru": "мозговой",
+        "la": "cerebralis, e"
+      },
+      {
+        "ru": "мозжечковый",
+        "la": "cerebellaris, e"
+      },
+      {
+        "ru": "моча",
+        "la": "urina, ae, f"
+      },
+      {
+        "ru": "мочегонный сбор",
+        "la": "species diureticae"
+      },
+      {
+        "ru": "надпочечный",
+        "la": "suprarenalis, e"
+      },
+      {
+        "ru": "недостаточность",
+        "la": "insufficientia, ae, f"
+      },
+      {
+        "ru": "непарный, неравный",
+        "la": "impar, imparis"
+      },
+      {
+        "ru": "нижнечелюстной",
+        "la": "mandibularis, e"
+      },
+      {
+        "ru": "общий",
+        "la": "generalis, e"
+      },
+      {
+        "ru": "парный, равный",
+        "la": "par, paris"
+      },
+      {
+        "ru": "пилюльная масса",
+        "la": "massa pilularum"
+      },
+      {
+        "ru": "пилюля",
+        "la": "pilula, ae, f"
+      },
+      {
+        "ru": "потеря зубов",
+        "la": "adentia, ae, f"
+      },
+      {
+        "ru": "потогонный сбор",
+        "la": "species diaphoreticae"
+      },
+      {
+        "ru": "поясничный",
+        "la": "lumbalis, e"
+      },
+      {
+        "ru": "простой",
+        "la": "simplex, ĭcis"
+      },
+      {
+        "ru": "противоастматический сбор",
+        "la": "species antiasthmaticae"
+      },
+      {
+        "ru": "прямокишечный, ректальный,",
+        "la": "rectalis, e"
+      },
+      {
+        "ru": "раковина",
+        "la": "concha, ae, f"
+      },
+      {
+        "ru": "решетчатый",
+        "la": "ethmoidalis, e"
+      },
+      {
+        "ru": "роговица, роговая оболочка глаза",
+        "la": "cornea, ae, f"
+      },
+      {
+        "ru": "ромашка",
+        "la": "Chamomilla, ae, f"
+      },
+      {
+        "ru": "свежий",
+        "la": "recens, ntis"
+      },
+      {
+        "ru": "серия, ряд",
+        "la": "series, ēi f"
+      },
+      {
+        "ru": "сетчатка",
+        "la": "retina, ae, f"
+      },
+      {
+        "ru": "солодка (или лакричник)",
+        "la": "Glycyrrhiza, ae, f, (Liquiritia, ae f)"
+      },
+      {
+        "ru": "сопротивляемость, устойчивость",
+        "la": "resistentia, ae, f"
+      },
+      {
+        "ru": "спинномозговой",
+        "la": "spinalis, e"
+      },
+      {
+        "ru": "спинномозговой, костномозговой",
+        "la": "medullaris, e"
+      },
+      {
+        "ru": "таблетка",
+        "la": "tabuletta, ae, f"
+      },
+      {
+        "ru": "такой",
+        "la": "talis, e"
+      },
+      {
+        "ru": "тонкий",
+        "la": "tenuis, e"
+      },
+      {
+        "ru": "трава",
+        "la": "herba, ae, f"
+      },
+      {
+        "ru": "трёхглавый",
+        "la": "triceps, tricĭpitis"
+      },
+      {
+        "ru": "успокаивающий сбор",
+        "la": "species sedativae"
+      },
+      {
+        "ru": "фенхель (укроп)",
+        "la": "Foeniculum, i n"
+      },
+      {
+        "ru": "чесотка",
+        "la": "scabies, ēi, f"
+      },
+      {
+        "ru": "четырёхглавый",
+        "la": "quadriceps, cĭpitis"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "В желатиновых (крахмальных) капсулах",
+        "la": "In capsulis gelatinosis (amylaceis)"
+      },
+      {
+        "ru": "В самую суть дела",
+        "la": "In medias res"
+      },
+      {
+        "ru": "Маска Гиппократа, лицо умирающего",
+        "la": "Facies Hippocratica"
+      },
+      {
+        "ru": "Мыслю, следовательно, существую",
+        "la": "Cogito ergo sum"
+      },
+      {
+        "ru": "На день; суточная порция лекарства",
+        "la": "Pro die"
+      },
+      {
+        "ru": "Наилучшее лекарство - покой",
+        "la": "Optimum medicamentum quies est"
+      },
+      {
+        "ru": "Незнание не есть довод",
+        "la": "Ignorantia non est argumentum"
+      },
+      {
+        "ru": "Пока дышу, надеюсь",
+        "la": "Dum spiro, spero"
+      },
+      {
+        "ru": "Разделяй и властвуй",
+        "la": "Divide et impera"
+      }
+    ]
+  },
+  "Занятие 10": {
+    "Лексика": [
+      {
+        "ru": "(не) излечимый",
+        "la": "(in) curabilis, e"
+      },
+      {
+        "ru": "(не) операбельный",
+        "la": "(in) operabilis, e"
+      },
+      {
+        "ru": "(не) подвижный",
+        "la": "(im) mobilis, e"
+      },
+      {
+        "ru": "Выдай такие дозы числом 10",
+        "la": "Da tales doses Numero 10"
+      },
+      {
+        "ru": "Переверни!",
+        "la": "Verte!"
+      },
+      {
+        "ru": "Повтори!",
+        "la": "Repĕte!"
+      },
+      {
+        "ru": "адреналин",
+        "la": "Adrenalinum, i, n"
+      },
+      {
+        "ru": "алоэ",
+        "la": "Aloë, es, f"
+      },
+      {
+        "ru": "алтей",
+        "la": "Althaea, ae, f"
+      },
+      {
+        "ru": "асептически",
+        "la": "aseptice"
+      },
+      {
+        "ru": "блуждающий (о нерве)",
+        "la": "vagus, a, um"
+      },
+      {
+        "ru": "блуждающий (о почке)",
+        "la": "migrans, ntis"
+      },
+      {
+        "ru": "брать",
+        "la": "recipĕre"
+      },
+      {
+        "ru": "быстро",
+        "la": "cito"
+      },
+      {
+        "ru": "возвратный",
+        "la": "recurrens, ntis"
+      },
+      {
+        "ru": "восходящий",
+        "la": "ascendens, ntis"
+      },
+      {
+        "ru": "входить",
+        "la": "intrāre"
+      },
+      {
+        "ru": "выдавать",
+        "la": "dāre"
+      },
+      {
+        "ru": "выносящий",
+        "la": "efferens, ntis"
+      },
+      {
+        "ru": "выслушивать",
+        "la": "auscultāre"
+      },
+      {
+        "ru": "выступающий",
+        "la": "prominens, ntis"
+      },
+      {
+        "ru": "дважды",
+        "la": "bis"
+      },
+      {
+        "ru": "делить",
+        "la": "dividĕre"
+      },
+      {
+        "ru": "деформирующий",
+        "la": "deformans, ntis"
+      },
+      {
+        "ru": "дистиллированный",
+        "la": "destillatus, a, um"
+      },
+      {
+        "ru": "дрожательный, дрожащий",
+        "la": "tremens, ntis"
+      },
+      {
+        "ru": "извлекать, удалять",
+        "la": "extrahĕre"
+      },
+      {
+        "ru": "иметь",
+        "la": "habēre"
+      },
+      {
+        "ru": "исправляющий",
+        "la": "corrigens, ntis"
+      },
+      {
+        "ru": "исчезающий",
+        "la": "deficiens, ntis"
+      },
+      {
+        "ru": "как можно быстрее",
+        "la": "citissime"
+      },
+      {
+        "ru": "камфора",
+        "la": "Camphora, ae, f"
+      },
+      {
+        "ru": "качающийся, колеблющийся",
+        "la": "fluctuans, ntis"
+      },
+      {
+        "ru": "китайский",
+        "la": "chinensis, e"
+      },
+      {
+        "ru": "красавка",
+        "la": "Belladonna, ae, f"
+      },
+      {
+        "ru": "ландыш",
+        "la": "Convallaria, ae, f"
+      },
+      {
+        "ru": "лечить, заботиться",
+        "la": "curo, avi, atum, āre"
+      },
+      {
+        "ru": "лечить, оздоровлять",
+        "la": "sanāre"
+      },
+      {
+        "ru": "лимонник",
+        "la": "Schizandra, ae, f"
+      },
+      {
+        "ru": "матка",
+        "la": "uterus, i, m"
+      },
+      {
+        "ru": "мята",
+        "la": "Mentha, ae, f"
+      },
+      {
+        "ru": "настойка",
+        "la": "tinctura, ae, f"
+      },
+      {
+        "ru": "начинающийся",
+        "la": "incipiens, ntis"
+      },
+      {
+        "ru": "немедленно",
+        "la": "statim"
+      },
+      {
+        "ru": "нисходящий",
+        "la": "descendens, ntis"
+      },
+      {
+        "ru": "облепиха",
+        "la": "Hippophaë, es, f"
+      },
+      {
+        "ru": "облитерирующий, зарастающий",
+        "la": "obliterans, ntis"
+      },
+      {
+        "ru": "обозначать",
+        "la": "signāre"
+      },
+      {
+        "ru": "окись",
+        "la": "oxydum, i, n"
+      },
+      {
+        "ru": "отводящий",
+        "la": "abducens, ntis"
+      },
+      {
+        "ru": "перекись, пероксид",
+        "la": "peroxydum, i, n"
+      },
+      {
+        "ru": "перемежающийся",
+        "la": "intermittens, ntis"
+      },
+      {
+        "ru": "переменный",
+        "la": "alternans, ntis"
+      },
+      {
+        "ru": "перечный",
+        "la": "piperitus, a, um"
+      },
+      {
+        "ru": "по",
+        "la": "ana"
+      },
+      {
+        "ru": "получающий",
+        "la": "recipiens, ntis"
+      },
+      {
+        "ru": "помогающий, вспомогательный",
+        "la": "adjuvans, ntis"
+      },
+      {
+        "ru": "постоянный",
+        "la": "permanens, ntis"
+      },
+      {
+        "ru": "приготовлять",
+        "la": "praeparāre"
+      },
+      {
+        "ru": "приносящий",
+        "la": "afferens, ntis"
+      },
+      {
+        "ru": "прободающий",
+        "la": "perforans, ntis"
+      },
+      {
+        "ru": "проникающий",
+        "la": "penetrans, ntis"
+      },
+      {
+        "ru": "противопоставляющий",
+        "la": "opponens, ntis"
+      },
+      {
+        "ru": "пубертатный, подростковый",
+        "la": "pubertans, ntis"
+      },
+      {
+        "ru": "растворять",
+        "la": "solvĕre"
+      },
+      {
+        "ru": "свинец",
+        "la": "Plumbum, i, n"
+      },
+      {
+        "ru": "сколько необходимо",
+        "la": "quantum satis (q.s.)"
+      },
+      {
+        "ru": "скрытый",
+        "la": "latens, ntis"
+      },
+      {
+        "ru": "слабительный",
+        "la": "laxans, ntis"
+      },
+      {
+        "ru": "слушать",
+        "la": "audīre"
+      },
+      {
+        "ru": "смазывать",
+        "la": "linīre"
+      },
+      {
+        "ru": "смешивать",
+        "la": "misceo, miscui, mixtum, ēre"
+      },
+      {
+        "ru": "соединять",
+        "la": "iungo, iunxi, iunctum, ĕre"
+      },
+      {
+        "ru": "соединяющий",
+        "la": "communicans, ntis"
+      },
+      {
+        "ru": "стерилизовать",
+        "la": "sterilisāre"
+      },
+      {
+        "ru": "тёртый",
+        "la": "tritus, a, um"
+      },
+      {
+        "ru": "угрожающий",
+        "la": "imminens, ntis"
+      },
+      {
+        "ru": "формообразующий",
+        "la": "constituens, ntis"
+      },
+      {
+        "ru": "хранить, сохранять",
+        "la": "servāre"
+      },
+      {
+        "ru": "эфедра, хвойник",
+        "la": "Ephĕdra, ae, f"
+      },
+      {
+        "ru": "эфирный",
+        "la": "aetherĕus, a, um"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Анатомическое восстановление",
+        "la": "Restitutio anatomica"
+      },
+      {
+        "ru": "В болевой точке (месте)",
+        "la": "Loco dolenti"
+      },
+      {
+        "ru": "В отсутствии больного",
+        "la": "Absente aegroto"
+      },
+      {
+        "ru": "В присутствии врача ничего",
+        "la": "Praesente medico nihil nocet"
+      },
+      {
+        "ru": "Восстановление до неповреждён-",
+        "la": "Restitutio ad integrum"
+      },
+      {
+        "ru": "Восстановление функции",
+        "la": "Restitutio functionalis"
+      },
+      {
+        "ru": "Лечи умом, а не медикаментами",
+        "la": "Medica mente, non medicamentis"
+      },
+      {
+        "ru": "Не навреди!",
+        "la": "Noli nocēre!"
+      },
+      {
+        "ru": "Обрати внимание!",
+        "la": "Nota bene!"
+      },
+      {
+        "ru": "Разделяй и властвуй!",
+        "la": "Divide et impĕra"
+      }
+    ]
+  },
+  "Занятие 11": {
+    "Лексика": [
+      {
+        "ru": "1) глина; 2) болюс (крупная пилюля",
+        "la": "bolus, i, f"
+      },
+      {
+        "ru": "ацетилсалициловый",
+        "la": "acetylsalicylicus, a, um"
+      },
+      {
+        "ru": "барабан",
+        "la": "tympanum, i, n"
+      },
+      {
+        "ru": "белена",
+        "la": "Hyoscyamus, i, m"
+      },
+      {
+        "ru": "болезнь",
+        "la": "morbus, i, m"
+      },
+      {
+        "ru": "больной",
+        "la": "aegrotus, a, um"
+      },
+      {
+        "ru": "ветвь",
+        "la": "ramus, i, m"
+      },
+      {
+        "ru": "вирус",
+        "la": "virus, i, n"
+      },
+      {
+        "ru": "водород",
+        "la": "Hydrogenium, i, n"
+      },
+      {
+        "ru": "врач",
+        "la": "medicus, i, m"
+      },
+      {
+        "ru": "вход, отверстие, устье",
+        "la": "ostium, i, n"
+      },
+      {
+        "ru": "глаз",
+        "la": "oculus, i, m"
+      },
+      {
+        "ru": "девочка, девушка",
+        "la": "puella, ae f"
+      },
+      {
+        "ru": "диаметр",
+        "la": "diameter, i, f"
+      },
+      {
+        "ru": "доля",
+        "la": "lobus, i, m"
+      },
+      {
+        "ru": "изотонический",
+        "la": "isotonicus, a, um"
+      },
+      {
+        "ru": "ихтиол",
+        "la": "Ichthyolum, i, n"
+      },
+      {
+        "ru": "канатик (пупочный), пуповина",
+        "la": "funiculus, i, m"
+      },
+      {
+        "ru": "касторовое масло",
+        "la": "oleum Ricini"
+      },
+      {
+        "ru": "кислота",
+        "la": "acidum, i, n"
+      },
+      {
+        "ru": "крестцово-копчиковый",
+        "la": "sacrococcygeus, a, um"
+      },
+      {
+        "ru": "луковица",
+        "la": "bulbus, i, m"
+      },
+      {
+        "ru": "магний",
+        "la": "Magnium, ii, n"
+      },
+      {
+        "ru": "масло",
+        "la": "oleum, i, n"
+      },
+      {
+        "ru": "матка (утроба)",
+        "la": "uterus, i, m"
+      },
+      {
+        "ru": "маточный (утробный)",
+        "la": "uterinus, a, um"
+      },
+      {
+        "ru": "мелкий, тонкий",
+        "la": "subtilis, e"
+      },
+      {
+        "ru": "надкостница",
+        "la": "periosteum, i, n"
+      },
+      {
+        "ru": "наивысший",
+        "la": "supremus, a, um"
+      },
+      {
+        "ru": "нистатин",
+        "la": "Nystatinum, i, n"
+      },
+      {
+        "ru": "новорождённый",
+        "la": "neonatus, i, m"
+      },
+      {
+        "ru": "парацетамол",
+        "la": "Paracetamolum, i, n"
+      },
+      {
+        "ru": "пепсин",
+        "la": "Pepsinum, i, n,"
+      },
+      {
+        "ru": "период",
+        "la": "periodus, i, f"
+      },
+      {
+        "ru": "пищевод",
+        "la": "esóphagus, i, m"
+      },
+      {
+        "ru": "плечевая кость",
+        "la": "humerus, i, m"
+      },
+      {
+        "ru": "плечо",
+        "la": "brachium, i n"
+      },
+      {
+        "ru": "подвздошная кишка",
+        "la": "ileum, i, n"
+      },
+      {
+        "ru": "полый",
+        "la": "cavus, a, um"
+      },
+      {
+        "ru": "преддверие",
+        "la": "vestibulum, i, n"
+      },
+      {
+        "ru": "пространство",
+        "la": "spatium, i, n"
+      },
+      {
+        "ru": "разбавленный",
+        "la": "dilutus, a, um"
+      },
+      {
+        "ru": "рак",
+        "la": "cancer, cri, m"
+      },
+      {
+        "ru": "ребенок, дитя, мальчик",
+        "la": "puer, ĕri m"
+      },
+      {
+        "ru": "рукоятка",
+        "la": "manubrium, i, n"
+      },
+      {
+        "ru": "седалищный",
+        "la": "ischiadicus, a, um"
+      },
+      {
+        "ru": "сироп",
+        "la": "sirupus, i, m"
+      },
+      {
+        "ru": "слезный",
+        "la": "lacrimalis, e"
+      },
+      {
+        "ru": "слизистый",
+        "la": "mucosus, a, um"
+      },
+      {
+        "ru": "соляный, хлористоводородный",
+        "la": "hydrochloricus, a, um"
+      },
+      {
+        "ru": "ствол, туловище",
+        "la": "truncus, i, m"
+      },
+      {
+        "ru": "строфант",
+        "la": "Strophanthus, i, m"
+      },
+      {
+        "ru": "сыпной",
+        "la": "exanthematicus, a, um"
+      },
+      {
+        "ru": "тетрациклин",
+        "la": "Tetracyclinum, i, n"
+      },
+      {
+        "ru": "тиф",
+        "la": "typhus, i, m"
+      },
+      {
+        "ru": "уздечка",
+        "la": "frenulum, i, n"
+      },
+      {
+        "ru": "чешуйчатый",
+        "la": "squamosus, a, um"
+      },
+      {
+        "ru": "чилибуха",
+        "la": "Strychnus, i, m"
+      },
+      {
+        "ru": "число",
+        "la": "numerus, i, m"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Быстрее, выше, сильнее!",
+        "la": "Citius, altius, fortius!"
+      },
+      {
+        "ru": "В живом организме (на живом организме)",
+        "la": "In vivo"
+      },
+      {
+        "ru": "В склянке (т.е. в лабораторных условиях)",
+        "la": "In vitro"
+      },
+      {
+        "ru": "В черной (темной) склянке",
+        "la": "In vitro nigro (fusco)"
+      },
+      {
+        "ru": "Диагноз на основании помогающих",
+        "la": "Diagnosis ex juvantibus"
+      },
+      {
+        "ru": "Здоровье народа - наивысший закон",
+        "la": "Salus populi suprema lex"
+      },
+      {
+        "ru": "Не много, но многое",
+        "la": "Non multa sed multum"
+      },
+      {
+        "ru": "Старость - неизлечимая болезнь",
+        "la": "Senectus insanabilis morbus est"
+      },
+      {
+        "ru": "детский, недоразвитый);",
+        "la": "morphinismus, i, m; infantilismus, i, m (infantilis"
+      },
+      {
+        "ru": "колбаса); alcoholismus, i, m; saturnismus, i, m",
+        "la": "botulismus, i, m (botulus"
+      },
+      {
+        "ru": "свинец); iodismus, i, m; hypnotismus, i, m (*hypn - сон);",
+        "la": "(Saturnum"
+      }
+    ]
+  },
+  "Занятие 12": {
+    "Лексика": [
+      {
+        "ru": "Выдать такие дозы …",
+        "la": "Dentur tales doses"
+      },
+      {
+        "ru": "Выдать. Пусть будет выдано",
+        "la": "Detur"
+      },
+      {
+        "ru": "Обозначить. Пусть будет обозначено",
+        "la": "Signetur"
+      },
+      {
+        "ru": "Простерилизовать!",
+        "la": "Sterilisetur!"
+      },
+      {
+        "ru": "Смешать. Пусть будет смешано",
+        "la": "Misceatur"
+      },
+      {
+        "ru": "брыжейка",
+        "la": "mesenterium, ii, n"
+      },
+      {
+        "ru": "брюшина",
+        "la": "peritonéum, i n"
+      },
+      {
+        "ru": "двенадцатиперстная кишка",
+        "la": "duodenum, i, n"
+      },
+      {
+        "ru": "жидкий (экстракт)",
+        "la": "fluidus, a, um"
+      },
+      {
+        "ru": "кишка",
+        "la": "intestinum, i n"
+      },
+      {
+        "ru": "лекарство",
+        "la": "medicamentum, i, n"
+      },
+      {
+        "ru": "линимент, жидкая мазь",
+        "la": "linimentum, i, n"
+      },
+      {
+        "ru": "лист",
+        "la": "folium, ii, n"
+      },
+      {
+        "ru": "мазь",
+        "la": "unguentum, i, n"
+      },
+      {
+        "ru": "мозжечок",
+        "la": "cerebellum, i, n"
+      },
+      {
+        "ru": "мягкий",
+        "la": "mollis, e"
+      },
+      {
+        "ru": "настой",
+        "la": "infusum, i, n"
+      },
+      {
+        "ru": "нёбно-язычный",
+        "la": "palatoglossus, a, um"
+      },
+      {
+        "ru": "отвар",
+        "la": "decoctum, i, n"
+      },
+      {
+        "ru": "персиковое масло",
+        "la": "oleum Persicorum"
+      },
+      {
+        "ru": "пластырь",
+        "la": "emplastrum, i, n"
+      },
+      {
+        "ru": "подвздошный",
+        "la": "iliăcus, a, um"
+      },
+      {
+        "ru": "предсердие",
+        "la": "atrium, ii, n"
+      },
+      {
+        "ru": "противоядие",
+        "la": "antidŏtum, i, n"
+      },
+      {
+        "ru": "прямая кишка",
+        "la": "rectum, i, n"
+      },
+      {
+        "ru": "прямой",
+        "la": "rectus, a, um"
+      },
+      {
+        "ru": "пусть образуется",
+        "la": "fiat ( Nom.)"
+      },
+      {
+        "ru": "пусть образуются",
+        "la": "fiant (Nom.)"
+      },
+      {
+        "ru": "ртуть",
+        "la": "Hydrargyrum, i, n"
+      },
+      {
+        "ru": "сальник",
+        "la": "omentum, i, n"
+      },
+      {
+        "ru": "свеча, суппозиторий",
+        "la": "suppositorium, i, n"
+      },
+      {
+        "ru": "скипидар, терпентинное масло",
+        "la": "oleum Terebinthinae"
+      },
+      {
+        "ru": "спина, спинка",
+        "la": "dorsum, i, n"
+      },
+      {
+        "ru": "средство",
+        "la": "remedium, i i, n"
+      },
+      {
+        "ru": "сыворотка",
+        "la": "serum, i, n"
+      },
+      {
+        "ru": "тощая кишка",
+        "la": "jejunum, i n"
+      },
+      {
+        "ru": "цинк",
+        "la": "Zincum, i, n"
+      },
+      {
+        "ru": "чтобы (союз); как",
+        "la": "ut"
+      },
+      {
+        "ru": "экстракт",
+        "la": "extractum, i, n"
+      },
+      {
+        "ru": "эмульсия",
+        "la": "emulsum, i, n"
+      },
+      {
+        "ru": "яд",
+        "la": "venenum, i, n"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Искусством и человеколюбием, трудом и",
+        "la": "Arte et humanitate, labore et scientia"
+      },
+      {
+        "ru": "Мыслю, следовательно, существую",
+        "la": "Cogito, ergo sum"
+      },
+      {
+        "ru": "Трудом и старанием",
+        "la": "Opera et studio"
+      }
+    ]
+  },
+  "Занятие 13": {
+    "Лексика": [
+      {
+        "ru": "абсцесс, нарыв",
+        "la": "abscessus, us, m"
+      },
+      {
+        "ru": "анастезин",
+        "la": "Anaesthesinum, i, n"
+      },
+      {
+        "ru": "артериальный",
+        "la": "arteriosus,a, um"
+      },
+      {
+        "ru": "борный",
+        "la": "boricus, a, um"
+      },
+      {
+        "ru": "венозный",
+        "la": "venosus, a, um"
+      },
+      {
+        "ru": "внешний вид, телосложение, привычка",
+        "la": "habitus, us, m"
+      },
+      {
+        "ru": "выпадение",
+        "la": "prolapsus, us, m"
+      },
+      {
+        "ru": "глицерин",
+        "la": "Glycerinum, i, n"
+      },
+      {
+        "ru": "грыжа",
+        "la": "hernia, ae, f"
+      },
+      {
+        "ru": "дополнительный",
+        "la": "accessorius, a, um"
+      },
+      {
+        "ru": "дуб",
+        "la": "Quercus, us, f"
+      },
+      {
+        "ru": "желчный",
+        "la": "fellĕus, a, um"
+      },
+      {
+        "ru": "зародыш",
+        "la": "fetus, us, m"
+      },
+      {
+        "ru": "игла",
+        "la": "acus, us, f"
+      },
+      {
+        "ru": "камфорный",
+        "la": "camphoratus, a, um"
+      },
+      {
+        "ru": "кисть, рука",
+        "la": "manus, us, f"
+      },
+      {
+        "ru": "коллапс, острая сосудистая",
+        "la": "collapsus, us, m"
+      },
+      {
+        "ru": "колотая рана",
+        "la": "vulnus punctum"
+      },
+      {
+        "ru": "кора",
+        "la": "cortex, icis, m"
+      },
+      {
+        "ru": "лат. грудь; греч. мать, грудная железа",
+        "la": "mamma, ae, f"
+      },
+      {
+        "ru": "мениск; фиброзное хрящевое полу-",
+        "la": "meniscus, i, m"
+      },
+      {
+        "ru": "мочеизнурение, диабет",
+        "la": "diabetes, ae, m"
+      },
+      {
+        "ru": "нагноение",
+        "la": "suppuratio, onis, f"
+      },
+      {
+        "ru": "несахарный диабет",
+        "la": "diabetes insipidus"
+      },
+      {
+        "ru": "обморожение",
+        "la": "congelatio, onis, f"
+      },
+      {
+        "ru": "огнестрельная рана",
+        "la": "vulnus sclopetarium"
+      },
+      {
+        "ru": "ожог",
+        "la": "combustio, onis, f"
+      },
+      {
+        "ru": "отравленная рана",
+        "la": "vulnus venenatum"
+      },
+      {
+        "ru": "очищенный",
+        "la": "rectificatus, a, um"
+      },
+      {
+        "ru": "паховый",
+        "la": "unguinalis, e"
+      },
+      {
+        "ru": "пиридоксин",
+        "la": "Pyridoxinum, i, n"
+      },
+      {
+        "ru": "плод (растениие)",
+        "la": "fructus, us, m"
+      },
+      {
+        "ru": "преждевременные роды",
+        "la": "partus praematurus"
+      },
+      {
+        "ru": "пульс",
+        "la": "pulsus, us, m"
+      },
+      {
+        "ru": "разможжённая рана",
+        "la": "vulnus conquassatum"
+      },
+      {
+        "ru": "разрыв",
+        "la": "ruptura, ae, f"
+      },
+      {
+        "ru": "рана от укуса",
+        "la": "vulnus morsum"
+      },
+      {
+        "ru": "расположение",
+        "la": "situs, us, m"
+      },
+      {
+        "ru": "рваная рана",
+        "la": "vulnus laceratum"
+      },
+      {
+        "ru": "резаная рана",
+        "la": "vulnus incisum"
+      },
+      {
+        "ru": "рибофлавин",
+        "la": "Riboflavinum, i, n"
+      },
+      {
+        "ru": "роды",
+        "la": "partus, us, m (Sing.)"
+      },
+      {
+        "ru": "рубленая рана",
+        "la": "vulnus caesum"
+      },
+      {
+        "ru": "салициловый",
+        "la": "salicylicus, a, um"
+      },
+      {
+        "ru": "сахарный диабет",
+        "la": "diabetes mellitus"
+      },
+      {
+        "ru": "сложный",
+        "la": "composĭtus, a, um"
+      },
+      {
+        "ru": "сосцевидный",
+        "la": "mastoidĕus, a, um"
+      },
+      {
+        "ru": "сотрясение мозга",
+        "la": "commotio cerebri"
+      },
+      {
+        "ru": "спирт",
+        "la": "spiritus, us, m"
+      },
+      {
+        "ru": "срочные роды",
+        "la": "partus maturus"
+      },
+      {
+        "ru": "тиамин",
+        "la": "Thiaminum, i, n"
+      },
+      {
+        "ru": "ткань",
+        "la": "textus, us, m"
+      },
+      {
+        "ru": "трепанация (вскрытие костной полости)",
+        "la": "trepanatio, onis, f"
+      },
+      {
+        "ru": "тяжёлое истощение, кахексия",
+        "la": "cachexia, ae, f"
+      },
+      {
+        "ru": "ушибленная рана",
+        "la": "vulnus contusum"
+      },
+      {
+        "ru": "ущемление",
+        "la": "incarceratio, onis, f"
+      },
+      {
+        "ru": "фенол",
+        "la": "Phenolum, i, n"
+      },
+      {
+        "ru": "хлороформ",
+        "la": "Chloroformium, ii, n"
+      },
+      {
+        "ru": "этилморфин",
+        "la": "Aethylmorphinum, i, n"
+      },
+      {
+        "ru": "этиловый",
+        "la": "aethylicus, a, um"
+      },
+      {
+        "ru": "ягодичный",
+        "la": "glutēus, a, um"
+      }
+    ],
+    "Изречения": [
+      {
+        "ru": "Весь от ящичка (т.е. : одет с иголочки)",
+        "la": "Totus de capsula"
+      },
+      {
+        "ru": "Для",
+        "la": "Pro usu interno (externo, proprio) = ad usum internum (externum, proprium)"
+      },
+      {
+        "ru": "Дурная трава быстро растёт",
+        "la": "Mala herba cito crescit"
+      },
+      {
+        "ru": "Книжный знак, экслибрис",
+        "la": "Ex libris"
+      },
+      {
+        "ru": "Настоящее состояние",
+        "la": "Status praesens"
+      },
+      {
+        "ru": "Описка",
+        "la": "Lapsus calami"
+      },
+      {
+        "ru": "Ошибка языка, оговорка",
+        "la": "Lapsus linguae"
+      },
+      {
+        "ru": "Смертельный исход",
+        "la": "Exitus letalis"
+      },
+      {
+        "ru": "Существующее положение",
+        "la": "Status quo"
+      },
+      {
+        "ru": "То же самое состояние",
+        "la": "Status idem"
+      }
+    ]
+  },
+  "Занятие 14": {
+    "Лексика": [
+      {
+        "ru": "Третьего не дано",
+        "la": "Tertium non datur"
+      },
+      {
+        "ru": "восьмой",
+        "la": "octavus, a, um"
+      },
+      {
+        "ru": "вторичный",
+        "la": "secundarius, a, um"
+      },
+      {
+        "ru": "второй",
+        "la": "secundus, a, um"
+      },
+      {
+        "ru": "двенадцатый",
+        "la": "duodecimus, a, um"
+      },
+      {
+        "ru": "девятый",
+        "la": "nonus, a, um"
+      },
+      {
+        "ru": "десятый",
+        "la": "decimus, a, um"
+      },
+      {
+        "ru": "клыковый (букв. собачий)",
+        "la": "caninus, a, um"
+      },
+      {
+        "ru": "метилсалицилат",
+        "la": "Methylii salicylas, atis, m"
+      },
+      {
+        "ru": "одиннадцатый",
+        "la": "undecimus, a, um"
+      },
+      {
+        "ru": "оксациллин-натрий",
+        "la": "Oxacillinum-natrium, i, n"
+      },
+      {
+        "ru": "олеандомицин",
+        "la": "Oleandomycinum, i, n"
+      },
+      {
+        "ru": "палец",
+        "la": "digitus, i, m"
+      },
+      {
+        "ru": "первичный",
+        "la": "primarius, a, um"
+      },
+      {
+        "ru": "первый",
+        "la": "primus, a, um"
+      },
+      {
+        "ru": "подъязычный (кость)",
+        "la": "hyoideus, a, um"
+      },
+      {
+        "ru": "подъязычный (нерв)",
+        "la": "hypoglossus, a, um"
+      },
+      {
+        "ru": "пятый",
+        "la": "quintus, a, um"
+      },
+      {
+        "ru": "резцовый",
+        "la": "incisivus, a, um"
+      },
+      {
+        "ru": "седьмой",
+        "la": "septimus, a, um"
+      },
+      {
+        "ru": "слизистый",
+        "la": "mucosus, a, um"
+      },
+      {
+        "ru": "третий",
+        "la": "tertius, a, um"
+      },
+      {
+        "ru": "четвёртый",
+        "la": "quartus, a, um"
+      },
+      {
+        "ru": "шестой",
+        "la": "sextus, a, um"
+      }
+    ]
+  },
+  "Занятие 15": {
+    "Лексика": [
+      {
+        "ru": "антимикробное, противопаразитарное",
+        "la": "-cid-"
+      },
+      {
+        "ru": "антимикробные, сульфаниламиды",
+        "la": "-sulfa-"
+      },
+      {
+        "ru": "барбитураты, снотворные, производные",
+        "la": "-barb-"
+      },
+      {
+        "ru": "болеутоляющее, анальгетик",
+        "la": "-dol-, alg-"
+      },
+      {
+        "ru": "гипотензивное",
+        "la": "-pres(s)-, -tens-"
+      },
+      {
+        "ru": "жаропонижающее, антипиретик",
+        "la": "-pyr-"
+      },
+      {
+        "ru": "желчегонное",
+        "la": "-chol-"
+      },
+      {
+        "ru": "кортикостероиды – гормоны коры",
+        "la": "-cort(ic)-"
+      },
+      {
+        "ru": "местнообезболивающее",
+        "la": "-cain-"
+      },
+      {
+        "ru": "обеззараживающее, антисептик",
+        "la": "-sept-"
+      },
+      {
+        "ru": "препарат мужских половых гормонов,",
+        "la": "-test-, vir-, stan-,"
+      },
+      {
+        "ru": "препараты женских половых гормонов",
+        "la": "-oestr-"
+      },
+      {
+        "ru": "противогрибковое",
+        "la": "-myc-"
+      },
+      {
+        "ru": "сердечное",
+        "la": "-cor-, -card-"
+      },
+      {
+        "ru": "сосудорасширяющее, спазмолитик",
+        "la": "-vas-, -angi-"
+      },
+      {
+        "ru": "средство, влияющее на функцию",
+        "la": "-thyr- (tyr-, tir-)"
+      },
+      {
+        "ru": "суффикс, употребляемый в названиях",
+        "la": "-as-"
+      },
+      {
+        "ru": "успокаивающее",
+        "la": "-sed-"
+      },
+      {
+        "ru": "чувствительность, анестетик",
+        "la": "-aesthes-"
+      }
+    ]
+  },
+  "Занятие 16": {
+    "Лексика": [
+      {
+        "ru": "1) воздух 2) легкое",
+        "la": "pneum(on)"
+      },
+      {
+        "ru": "большой",
+        "la": "macro"
+      },
+      {
+        "ru": "боязнь",
+        "la": "phobia"
+      },
+      {
+        "ru": "быстрый",
+        "la": "tachy(s)"
+      },
+      {
+        "ru": "воспитание",
+        "la": "paedia"
+      },
+      {
+        "ru": "врач",
+        "la": "iater"
+      },
+      {
+        "ru": "врачевание",
+        "la": "iatria"
+      },
+      {
+        "ru": "выделяю",
+        "la": "crino"
+      },
+      {
+        "ru": "глотание",
+        "la": "phag(ia)"
+      },
+      {
+        "ru": "движение",
+        "la": "kinesis"
+      },
+      {
+        "ru": "дитя",
+        "la": "paedi(on)"
+      },
+      {
+        "ru": "душа",
+        "la": "psyche"
+      },
+      {
+        "ru": "жир",
+        "la": "lip(os)"
+      },
+      {
+        "ru": "затвердение",
+        "la": "scleros"
+      },
+      {
+        "ru": "зрение",
+        "la": "opsis (optic)"
+      },
+      {
+        "ru": "исследование",
+        "la": "scopia"
+      },
+      {
+        "ru": "камень",
+        "la": "lith(us)"
+      },
+      {
+        "ru": "малый",
+        "la": "micro"
+      },
+      {
+        "ru": "медленный",
+        "la": "brad(ys)"
+      },
+      {
+        "ru": "недостаток, бедность,",
+        "la": "penia"
+      },
+      {
+        "ru": "неподвижность, остановка, состояние",
+        "la": "stasis (stat)"
+      },
+      {
+        "ru": "один",
+        "la": "mono"
+      },
+      {
+        "ru": "опущение",
+        "la": "ptosis"
+      },
+      {
+        "ru": "переход",
+        "la": "meta"
+      },
+      {
+        "ru": "пластическая операция",
+        "la": "plastica"
+      },
+      {
+        "ru": "пожиратель",
+        "la": "phag(os)"
+      },
+      {
+        "ru": "почечная лоханка",
+        "la": "pyel"
+      },
+      {
+        "ru": "прикрепление, фиксация",
+        "la": "pexia"
+      },
+      {
+        "ru": "прямой, правильный",
+        "la": "orth(os)"
+      },
+      {
+        "ru": "размягчение",
+        "la": "malacia"
+      },
+      {
+        "ru": "растение",
+        "la": "phyt (on)"
+      },
+      {
+        "ru": "расширение",
+        "la": "ectasia"
+      },
+      {
+        "ru": "рождение, образование",
+        "la": "genesis (gen)"
+      },
+      {
+        "ru": "серый",
+        "la": "poli(os)"
+      },
+      {
+        "ru": "сжатый, узкий",
+        "la": "sten(os)"
+      },
+      {
+        "ru": "сила",
+        "la": "sthenia"
+      },
+      {
+        "ru": "склонность",
+        "la": "philia"
+      },
+      {
+        "ru": "средний",
+        "la": "meso"
+      },
+      {
+        "ru": "старость",
+        "la": "geront"
+      },
+      {
+        "ru": "судорога, спазм",
+        "la": "spasm(us)"
+      },
+      {
+        "ru": "творение, созидание",
+        "la": "poësis"
+      },
+      {
+        "ru": "ткань",
+        "la": "hist"
+      },
+      {
+        "ru": "тромб, сгусток",
+        "la": "thromb(os)"
+      },
+      {
+        "ru": "чувствительность",
+        "la": "aesthesia"
+      },
+      {
+        "ru": "широкий, плоский",
+        "la": "platys"
+      },
+      {
+        "ru": "яд",
+        "la": "toxic"
+      }
+    ]
+  }
+}
