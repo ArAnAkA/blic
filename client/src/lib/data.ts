@@ -25,9 +25,9 @@ const processData = () => {
   let globalCounter = 1;
 
   // @ts-ignore
-  if (rawData.proverbs) {
-    // @ts-ignore
-    rawData.proverbs.forEach((item: any) => {
+  const rawProverbs = rawData["Латинские изречения"];
+  if (rawProverbs && Array.isArray(rawProverbs)) {
+    rawProverbs.forEach((item: any) => {
       proverbs.push({
         ru: item.ru,
         la: item.la,

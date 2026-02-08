@@ -64,15 +64,15 @@ function QuizGame({ quizId }: { quizId: number | "proverbs" }) {
     }
   };
 
-  if (!questions.length) return <div className="p-8 text-center">Loading quiz...</div>;
+  if (!questions.length) return <div className="p-8 text-center">Загрузка теста...</div>;
 
   const isProverbs = quizId === "proverbs";
 
   if (isFinished) {
     const percentage = Math.round((score / questions.length) * 100);
-    let message = "Good effort!";
-    if (percentage >= 90) message = "Outstanding!";
-    else if (percentage >= 70) message = "Well done!";
+    let message = "Хороший результат!";
+    if (percentage >= 90) message = "Превосходно!";
+    else if (percentage >= 70) message = "Отлично!";
 
     return (
       <Shell>
@@ -86,7 +86,7 @@ function QuizGame({ quizId }: { quizId: number | "proverbs" }) {
               <CheckCircle2 className="w-10 h-10 text-primary" />
             </div>
             
-            <h2 className="text-4xl font-display font-bold text-primary mb-2">Quiz Complete!</h2>
+            <h2 className="text-4xl font-display font-bold text-primary mb-2">Тест завершен!</h2>
             <p className="text-muted-foreground text-lg mb-8">{message}</p>
             
             <div className="flex items-end justify-center gap-2 mb-8">
@@ -100,17 +100,17 @@ function QuizGame({ quizId }: { quizId: number | "proverbs" }) {
                 className="w-full flex items-center justify-center gap-2 py-3.5 bg-primary text-primary-foreground rounded-xl font-semibold hover:bg-primary/90 transition-all"
               >
                 <RefreshCcw className="w-5 h-5" />
-                Retry Quiz
+                Попробовать снова
               </button>
               <Link href={isProverbs ? "/proverbs" : `/lesson/${quizId}`}>
                 <button className="w-full flex items-center justify-center gap-2 py-3.5 bg-secondary text-secondary-foreground rounded-xl font-semibold hover:bg-secondary/80 transition-all">
-                  Back to {isProverbs ? "Proverbs" : "Lesson"}
+                  Назад к {isProverbs ? "изречениям" : "занятию"}
                 </button>
               </Link>
               <Link href="/">
                 <button className="w-full flex items-center justify-center gap-2 py-3.5 text-muted-foreground hover:text-primary transition-all">
                   <Home className="w-5 h-5" />
-                  Home
+                  Главная
                 </button>
               </Link>
             </div>
@@ -128,14 +128,14 @@ function QuizGame({ quizId }: { quizId: number | "proverbs" }) {
         <div className="flex items-center justify-between mb-8 px-2">
           <div className="flex flex-col">
             <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
-              {isProverbs ? "Proverb Quiz" : "Vocabulary Quiz"}
+              {isProverbs ? "Тест по изречениям" : "Тест по лексике"}
             </span>
             <span className="text-xl font-bold text-primary tabular-nums">
               {currentQuestionIndex + 1} <span className="text-muted-foreground/40">/ {questions.length}</span>
             </span>
           </div>
           <div className="flex flex-col items-end">
-            <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Score</span>
+            <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Счет</span>
             <span className="text-xl font-bold text-emerald-600 tabular-nums">
               {score}
             </span>
@@ -211,7 +211,7 @@ function QuizGame({ quizId }: { quizId: number | "proverbs" }) {
                   onClick={handleNext}
                   className="px-8 py-3 bg-primary text-primary-foreground rounded-full font-bold flex items-center gap-2 hover:bg-primary/90 transition-all shadow-lg hover:shadow-primary/25"
                 >
-                  {currentQuestionIndex < questions.length - 1 ? "Next Question" : "Finish Quiz"}
+                  {currentQuestionIndex < questions.length - 1 ? "Следующий вопрос" : "Завершить тест"}
                   <ArrowRight className="w-5 h-5" />
                 </motion.button>
               )}

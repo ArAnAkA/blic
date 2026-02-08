@@ -35,7 +35,7 @@ export default function DeckGridPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-display font-bold text-primary"
           >
-            Master Latin Vocabulary
+            Изучайте латинскую лексику
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -43,8 +43,8 @@ export default function DeckGridPage() {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto"
           >
-            A comprehensive flashcard collection organized by lessons. 
-            Study {allCards.length} words and phrases with our interactive tools.
+            Комплексная коллекция карточек, организованная по занятиям.
+            Изучите {allCards.length} слов и фраз с помощью наших инструментов.
           </motion.p>
 
           <motion.div 
@@ -56,7 +56,7 @@ export default function DeckGridPage() {
             <Link href="/all">
               <button className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 font-semibold text-white transition-all duration-200 bg-primary rounded-full hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/25 active:scale-95 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
                 <Layers className="w-5 h-5" />
-                Study All {allCards.length} Cards
+                Изучить все {allCards.length} карточек
                 <ArrowRight className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" />
               </button>
             </Link>
@@ -64,7 +64,7 @@ export default function DeckGridPage() {
             <Link href="/proverbs">
               <button className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 font-semibold text-primary transition-all duration-200 bg-white border-2 border-primary/20 rounded-full hover:bg-primary/5 hover:border-primary/30 active:scale-95 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
                 <Quote className="w-5 h-5" />
-                Latin Proverbs ({proverbs.length})
+                Латинские изречения ({proverbs.length})
                 <ArrowRight className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" />
               </button>
             </Link>
@@ -77,20 +77,20 @@ export default function DeckGridPage() {
             <div className="space-y-2 text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start gap-2 text-indigo-600 font-bold uppercase tracking-wider text-xs">
                 <Quote className="w-4 h-4" />
-                Special Collection
+                Специальная коллекция
               </div>
-              <h2 className="text-3xl font-display font-bold text-indigo-900 dark:text-indigo-100">Latin Proverbs</h2>
-              <p className="text-indigo-700/70 dark:text-indigo-300/70 max-w-md">Wisdom from the ancient world. Study {proverbs.length} famous Latin sayings and their translations.</p>
+              <h2 className="text-3xl font-display font-bold text-indigo-900 dark:text-indigo-100">Латинские изречения</h2>
+              <p className="text-indigo-700/70 dark:text-indigo-300/70 max-w-md">Мудрость древнего мира. Изучите {proverbs.length} знаменитых латинских высказываний и их переводы.</p>
             </div>
             <div className="flex gap-4">
               <Link href="/proverbs">
                 <button className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-all shadow-md shadow-indigo-200 dark:shadow-none">
-                  Cards
+                  Карточки
                 </button>
               </Link>
               <Link href="/quiz/proverbs">
                 <button className="px-6 py-3 bg-white text-indigo-600 border border-indigo-200 rounded-xl font-bold hover:bg-indigo-50 transition-all">
-                  Blitz Quiz
+                  Блиц-опрос
                 </button>
               </Link>
             </div>
@@ -100,7 +100,7 @@ export default function DeckGridPage() {
 
         {/* Grid */}
         <div className="space-y-6">
-          <h2 className="text-2xl font-display font-bold text-primary px-2">Vocabulary Lessons</h2>
+          <h2 className="text-2xl font-display font-bold text-primary px-2">Лексические минимумы по занятиям</h2>
           <motion.div 
             variants={container}
             initial="hidden"
@@ -116,7 +116,7 @@ export default function DeckGridPage() {
                 <div>
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-xs font-bold tracking-wider uppercase text-muted-foreground bg-secondary px-3 py-1 rounded-full">
-                      Lesson {lesson.id}
+                      Занятие {lesson.id}
                     </span>
                     <span className="text-sm font-mono text-muted-foreground/60">
                       #{lesson.globalStart}-{lesson.globalEnd}
@@ -127,7 +127,7 @@ export default function DeckGridPage() {
                   </h3>
                   <p className="text-muted-foreground text-sm mb-6 flex items-center gap-2">
                     <Book className="w-4 h-4" />
-                    {lesson.count} words
+                    {lesson.count} слов
                   </p>
                 </div>
 
@@ -135,13 +135,13 @@ export default function DeckGridPage() {
                   <Link href={`/lesson/${lesson.id}`}>
                     <button className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-medium bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors">
                       <PlayCircle className="w-4 h-4" />
-                      Cards
+                      Карточки
                     </button>
                   </Link>
                   <Link href={`/quiz/${lesson.id}`}>
                     <button className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-medium border-2 border-primary/10 text-primary hover:border-primary/20 hover:bg-primary/5 transition-colors">
                       <GraduationCap className="w-4 h-4" />
-                      Quiz
+                      Тест
                     </button>
                   </Link>
                 </div>

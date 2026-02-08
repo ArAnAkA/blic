@@ -71,7 +71,7 @@ export default function CardPlayerPage() {
     const targetVal = parseInt(jumpInput);
 
     if (isNaN(targetVal)) {
-      setError("Please enter a number");
+      setError("Введите число");
       return;
     }
 
@@ -81,7 +81,7 @@ export default function CardPlayerPage() {
         setCurrentIndex(targetVal - 1);
         setJumpInput("");
       } else {
-        setError(`Please enter a number between 1 and ${deck.length}`);
+        setError(`Введите число от 1 до ${deck.length}`);
       }
       return;
     }
@@ -93,7 +93,7 @@ export default function CardPlayerPage() {
         setCurrentIndex(index);
         setJumpInput("");
       } else {
-        setError("Card number not found.");
+        setError("Карточка не найдена.");
       }
     } else {
       const index = deck.findIndex(c => c.globalIndex === targetVal);
@@ -102,14 +102,14 @@ export default function CardPlayerPage() {
         setCurrentIndex(index);
         setJumpInput("");
       } else {
-        setError(`Card #${targetVal} is not in Lesson ${lessonId}.`);
+        setError(`Карточка #${targetVal} не входит в Занятие ${lessonId}.`);
       }
     }
   };
 
-  if (!currentCard) return <div>Loading...</div>;
+  if (!currentCard) return <div>Загрузка...</div>;
 
-  const title = isProverbs ? "Latin Proverbs" : (isGlobal ? "All Cards" : `Lesson ${lessonId}`);
+  const title = isProverbs ? "Латинские изречения" : (isGlobal ? "Все карточки" : `Занятие ${lessonId}`);
 
   return (
     <Shell>
@@ -122,7 +122,7 @@ export default function CardPlayerPage() {
             className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
           >
             <CornerUpLeft className="w-5 h-5" />
-            <span className="hidden sm:inline">Back to Lessons</span>
+            <span className="hidden sm:inline">Назад к занятиям</span>
           </button>
           
           <div className="text-center">
@@ -134,7 +134,7 @@ export default function CardPlayerPage() {
               {currentIndex + 1} / {deck.length} 
               {!isProverbs && (
                 <>
-                  <span className="opacity-50 mx-1">|</span> Global #{currentCard.globalIndex}
+                  <span className="opacity-50 mx-1">|</span> Глобальный индекс #{currentCard.globalIndex}
                 </>
               )}
             </p>
@@ -184,13 +184,13 @@ export default function CardPlayerPage() {
             onClick={prevCard}
             className="flex-1 py-3 rounded-xl bg-secondary font-medium text-secondary-foreground"
           >
-            Previous
+            Назад
           </button>
           <button 
             onClick={nextCard}
             className="flex-1 py-3 rounded-xl bg-primary font-medium text-primary-foreground"
           >
-            Next
+            Далее
           </button>
         </div>
 
@@ -201,7 +201,7 @@ export default function CardPlayerPage() {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <input 
                 type="number"
-                placeholder={isProverbs ? `Jump to proverb # (1-${deck.length})` : "Jump to global #"}
+                placeholder={isProverbs ? `Перейти к изречению (1-${deck.length})` : "Перейти к номеру карточки"}
                 value={jumpInput}
                 onChange={(e) => setJumpInput(e.target.value)}
                 className="w-full pl-10 pr-12 py-2 rounded-lg border border-border bg-white focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all outline-none"
@@ -211,7 +211,7 @@ export default function CardPlayerPage() {
                 disabled={!jumpInput}
                 className="absolute right-1 top-1 text-xs bg-primary text-white px-2 py-1.5 rounded-md hover:bg-primary/90 disabled:opacity-50"
               >
-                Go
+                Перейти
               </button>
             </div>
             {error && (
