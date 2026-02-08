@@ -2,17 +2,24 @@ import { useState, useEffect } from "react";
 import { useParams, useLocation } from "wouter";
 import { Shell } from "@/components/layout/shell";
 import { Flashcard3D } from "@/components/ui/card-3d";
-import { useDeck } from "@/hooks/use-flashcards";
-import { ChevronLeft, ChevronRight, CornerUpLeft, Search } from "lucide-react";
+import { useDeck, useProverbs } from "@/hooks/use-flashcards";
+import { ChevronLeft, ChevronRight, CornerUpLeft, Search, Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function CardPlayerPage() {
   const params = useParams<{ id?: string }>();
+  const [pathname] = useLocation();
   const [_, setLocation] = useLocation();
+  
+  const isProverbs = pathname === "/proverbs";
   const lessonId = params.id ? parseInt(params.id) : null;
-  const isGlobal = !lessonId;
+  const isGlobal = !lessonId && !isProverbs;
 
-  const deck = useDeck(lessonId);
+  const vocabularyDeck = useDeck(lessonId);
+  const proverbs = useProverbs();
+  
+  const deck = isProverbs ? proverbs : vocabularyDeck;
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [jumpInput, setJumpInput] = useState("");
@@ -61,16 +68,26 @@ export default function CardPlayerPage() {
   const handleJump = (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
-    const targetGlobal = parseInt(jumpInput);
+    const targetVal = parseInt(jumpInput);
 
-    if (isNaN(targetGlobal)) {
+    if (isNaN(targetVal)) {
       setError("Please enter a number");
       return;
     }
 
+    if (isProverbs) {
+      if (targetVal >= 1 && targetVal <= deck.length) {
+        setIsFlipped(false);
+        setCurrentIndex(targetVal - 1);
+        setJumpInput("");
+      } else {
+        setError(`Please enter a number between 1 and ${deck.length}`);
+      }
+      return;
+    }
+
     if (isGlobal) {
-      // Find index in global deck (it's sorted so index = global - 1)
-      const index = deck.findIndex(c => c.globalIndex === targetGlobal);
+      const index = deck.findIndex(c => c.globalIndex === targetVal);
       if (index !== -1) {
         setIsFlipped(false);
         setCurrentIndex(index);
@@ -79,19 +96,20 @@ export default function CardPlayerPage() {
         setError("Card number not found.");
       }
     } else {
-      // Find index in current lesson deck
-      const index = deck.findIndex(c => c.globalIndex === targetGlobal);
+      const index = deck.findIndex(c => c.globalIndex === targetVal);
       if (index !== -1) {
         setIsFlipped(false);
         setCurrentIndex(index);
         setJumpInput("");
       } else {
-        setError(`Card #${targetGlobal} is not in Lesson ${lessonId}.`);
+        setError(`Card #${targetVal} is not in Lesson ${lessonId}.`);
       }
     }
   };
 
   if (!currentCard) return <div>Loading...</div>;
+
+  const title = isProverbs ? "Latin Proverbs" : (isGlobal ? "All Cards" : `Lesson ${lessonId}`);
 
   return (
     <Shell>
@@ -108,11 +126,17 @@ export default function CardPlayerPage() {
           </button>
           
           <div className="text-center">
-            <h2 className="text-xl font-display font-bold text-primary">
-              {isGlobal ? "All Cards" : `Lesson ${lessonId}`}
+            <h2 className="text-xl font-display font-bold text-primary flex items-center justify-center gap-2">
+              {isProverbs && <Quote className="w-4 h-4" />}
+              {title}
             </h2>
             <p className="text-sm text-muted-foreground tabular-nums">
-              {currentIndex + 1} / {deck.length} <span className="opacity-50 mx-1">|</span> Global #{currentCard.globalIndex}
+              {currentIndex + 1} / {deck.length} 
+              {!isProverbs && (
+                <>
+                  <span className="opacity-50 mx-1">|</span> Global #{currentCard.globalIndex}
+                </>
+              )}
             </p>
           </div>
 
@@ -121,7 +145,6 @@ export default function CardPlayerPage() {
 
         {/* Card Interaction Area */}
         <div className="w-full relative flex items-center justify-center gap-4 sm:gap-8">
-          {/* Mobile: Hide arrow buttons, rely on tap zones or swipe (swipe not impl here but expected in modern apps) */}
           <button 
             onClick={prevCard}
             className="hidden sm:flex h-12 w-12 items-center justify-center rounded-full bg-white border border-border shadow-sm hover:bg-secondary text-primary transition-all hover:-translate-x-1"
@@ -132,7 +155,7 @@ export default function CardPlayerPage() {
           <div className="flex-1 max-w-xl">
             <AnimatePresence mode="wait">
               <motion.div
-                key={currentCard.globalIndex}
+                key={isProverbs ? currentIndex : currentCard.globalIndex}
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -50 }}
@@ -178,7 +201,7 @@ export default function CardPlayerPage() {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <input 
                 type="number"
-                placeholder="Jump to global #"
+                placeholder={isProverbs ? `Jump to proverb # (1-${deck.length})` : "Jump to global #"}
                 value={jumpInput}
                 onChange={(e) => setJumpInput(e.target.value)}
                 className="w-full pl-10 pr-12 py-2 rounded-lg border border-border bg-white focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all outline-none"

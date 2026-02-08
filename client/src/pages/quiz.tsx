@@ -5,24 +5,24 @@ import { useQuiz } from "@/hooks/use-flashcards";
 import { cn } from "@/lib/utils";
 import confetti from "canvas-confetti";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle2, XCircle, RefreshCcw, Home, ArrowRight } from "lucide-react";
+import { CheckCircle2, XCircle, RefreshCcw, Home, ArrowRight, Quote } from "lucide-react";
 
 export default function QuizPage() {
   const params = useParams<{ id: string }>();
-  const lessonId = parseInt(params.id);
+  const quizId = params.id === "proverbs" ? "proverbs" : parseInt(params.id);
   
-  // Force remount when key changes to generate new quiz
-  return <QuizGame key={lessonId} lessonId={lessonId} />;
+  // Force remount when quizId changes to generate new quiz
+  return <QuizGame key={quizId.toString()} quizId={quizId} />;
 }
 
-function QuizGame({ lessonId }: { lessonId: number }) {
-  const questions = useQuiz(lessonId);
+function QuizGame({ quizId }: { quizId: number | "proverbs" }) {
+  const questions = useQuiz(quizId);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
 
-  // Reset state if questions change (shouldn't happen due to key above, but safe)
+  // Reset state if questions change
   useEffect(() => {
     setCurrentQuestionIndex(0);
     setSelectedOption(null);
@@ -66,6 +66,8 @@ function QuizGame({ lessonId }: { lessonId: number }) {
 
   if (!questions.length) return <div className="p-8 text-center">Loading quiz...</div>;
 
+  const isProverbs = quizId === "proverbs";
+
   if (isFinished) {
     const percentage = Math.round((score / questions.length) * 100);
     let message = "Good effort!";
@@ -100,9 +102,9 @@ function QuizGame({ lessonId }: { lessonId: number }) {
                 <RefreshCcw className="w-5 h-5" />
                 Retry Quiz
               </button>
-              <Link href={`/lesson/${lessonId}`}>
+              <Link href={isProverbs ? "/proverbs" : `/lesson/${quizId}`}>
                 <button className="w-full flex items-center justify-center gap-2 py-3.5 bg-secondary text-secondary-foreground rounded-xl font-semibold hover:bg-secondary/80 transition-all">
-                  Back to Lesson
+                  Back to {isProverbs ? "Proverbs" : "Lesson"}
                 </button>
               </Link>
               <Link href="/">
@@ -125,7 +127,9 @@ function QuizGame({ lessonId }: { lessonId: number }) {
         {/* Progress Header */}
         <div className="flex items-center justify-between mb-8 px-2">
           <div className="flex flex-col">
-            <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Question</span>
+            <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+              {isProverbs ? "Proverb Quiz" : "Vocabulary Quiz"}
+            </span>
             <span className="text-xl font-bold text-primary tabular-nums">
               {currentQuestionIndex + 1} <span className="text-muted-foreground/40">/ {questions.length}</span>
             </span>
@@ -157,13 +161,14 @@ function QuizGame({ lessonId }: { lessonId: number }) {
             exit={{ opacity: 0, x: -20 }}
             className="flex-1 flex flex-col"
           >
-            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-border mb-8 text-center min-h-[200px] flex items-center justify-center">
-              <h3 className="text-3xl md:text-4xl font-display font-bold text-primary">
+            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-border mb-8 text-center min-h-[200px] flex flex-col items-center justify-center relative overflow-hidden">
+              {isProverbs && <Quote className="absolute -top-4 -left-4 w-24 h-24 text-primary/5 -rotate-12" />}
+              <h3 className="text-2xl md:text-3xl font-display font-bold text-primary relative z-10 leading-relaxed">
                 {currentQ.card.ru}
               </h3>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-1 gap-4 mb-8">
               {currentQ.options.map((option, idx) => {
                 let stateClass = "bg-white border-border hover:border-primary/50 hover:bg-secondary/20";
                 let icon = null;
@@ -191,7 +196,7 @@ function QuizGame({ lessonId }: { lessonId: number }) {
                       selectedOption === null && "shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
                     )}
                   >
-                    <span className="font-serif-text italic text-lg">{option}</span>
+                    <span className="font-serif-text italic text-base md:text-lg leading-snug">{option}</span>
                     {icon}
                   </button>
                 );
