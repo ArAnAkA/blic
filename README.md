@@ -1,4 +1,4 @@
-# replit.md
+# Project
 
 ## Overview
 
@@ -82,8 +82,3 @@ Preferred communication style: Simple, everyday language.
 - **@tanstack/react-query**: Data fetching/caching (mostly for template compatibility)
 - **drizzle-orm** + **drizzle-kit**: Database ORM and migration tooling
 - **zod** + **drizzle-zod**: Schema validation
-
-### Replit-specific
-- `@replit/vite-plugin-runtime-error-modal`: Error overlay in development
-- `@replit/vite-plugin-cartographer`: Dev tooling
-- `@replit/vite-plugin-dev-banner`: Development environment banner
