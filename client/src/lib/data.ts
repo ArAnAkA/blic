@@ -1,10 +1,11 @@
-import rawData from "@assets/flashcards_ru_la_by_lesson_1770563640294.json";
+import rawData from "@assets/flashcards_ru_la_by_lesson_plus_proverbs_1770565052990.json";
 
 export interface Flashcard {
   ru: string;
   la: string;
-  lesson: number;
-  globalIndex: number;
+  lesson?: number;
+  globalIndex?: number;
+  isProverb?: boolean;
 }
 
 export interface Deck {
@@ -19,12 +20,24 @@ export interface Deck {
 const processData = () => {
   const cards: Flashcard[] = [];
   const decks: Deck[] = [];
+  const proverbs: Flashcard[] = [];
   
   let globalCounter = 1;
 
+  // @ts-ignore
+  if (rawData.proverbs) {
+    // @ts-ignore
+    rawData.proverbs.forEach((item: any) => {
+      proverbs.push({
+        ru: item.ru,
+        la: item.la,
+        isProverb: true
+      });
+    });
+  }
+
   // Iterate through keys "Занятие 1" ... "Занятие 13"
-  // We sort keys to ensure order 1, 2, 3... not 1, 10, 11...
-  const sortedKeys = Object.keys(rawData).sort((a, b) => {
+  const sortedKeys = Object.keys(rawData).filter(k => k.startsWith('Занятие')).sort((a, b) => {
     const numA = parseInt(a.replace(/\D/g, ''));
     const numB = parseInt(b.replace(/\D/g, ''));
     return numA - numB;
@@ -32,13 +45,11 @@ const processData = () => {
 
   sortedKeys.forEach((key) => {
     const lessonNum = parseInt(key.replace(/\D/g, ''));
-    // @ts-ignore - rawData is typed as any from import
+    // @ts-ignore
     const lessonData = rawData[key];
     
-    // Only process "Лексика" section
     if (lessonData && lessonData["Лексика"] && Array.isArray(lessonData["Лексика"])) {
       const lessonCards: any[] = lessonData["Лексика"];
-      
       const start = globalCounter;
       
       lessonCards.forEach((item) => {
@@ -67,10 +78,10 @@ const processData = () => {
     }
   });
 
-  return { cards, decks };
+  return { cards, decks, proverbs };
 };
 
-export const { cards: allCards, decks: lessons } = processData();
+export const { cards: allCards, decks: lessons, proverbs } = processData();
 
 // Helper functions
 export function getDeckCards(lessonId: number): Flashcard[] {
@@ -88,21 +99,26 @@ export interface QuizQuestion {
   correctOptionIndex: number;
 }
 
-export function generateQuiz(lessonId: number, questionCount = 30): QuizQuestion[] {
-  const deckCards = getDeckCards(lessonId);
+export function generateQuiz(lessonIdOrProverbs: number | "proverbs", questionCount = 30): QuizQuestion[] {
+  let deckCards: Flashcard[];
+  let pool: Flashcard[];
+
+  if (lessonIdOrProverbs === "proverbs") {
+    deckCards = proverbs;
+    pool = proverbs;
+  } else {
+    deckCards = getDeckCards(lessonIdOrProverbs);
+    pool = deckCards.length > 10 ? deckCards : allCards;
+  }
+
   if (deckCards.length === 0) return [];
 
-  // Shuffle deck cards
   const shuffledDeck = [...deckCards].sort(() => Math.random() - 0.5);
   const selectedCards = shuffledDeck.slice(0, Math.min(questionCount, deckCards.length));
 
   return selectedCards.map(card => {
-    // Generate distractors from the SAME lesson to keep difficulty consistent
-    // If not enough cards in lesson, fallback to all cards
-    const pool = deckCards.length > 10 ? deckCards : allCards;
-    
     const distractors = pool
-      .filter(c => c.globalIndex !== card.globalIndex)
+      .filter(c => c.la !== card.la)
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .map(c => c.la);

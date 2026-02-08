@@ -14,6 +14,8 @@ function Router() {
       <Route path="/" component={DeckGridPage} />
       <Route path="/all" component={CardPlayerPage} />
       <Route path="/lesson/:id" component={CardPlayerPage} />
+      <Route path="/proverbs" component={CardPlayerPage} />
+      <Route path="/quiz/proverbs" component={QuizPage} />
       <Route path="/quiz/:id" component={QuizPage} />
       <Route component={NotFound} />
     </Switch>

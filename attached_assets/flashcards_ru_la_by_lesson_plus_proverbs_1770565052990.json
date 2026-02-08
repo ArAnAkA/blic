@@ -3668,5 +3668,315 @@
         "la": "toxic"
       }
     ]
-  }
+  },
+  "Латинские изречения": [
+    {
+      "ru": "«Из последующего»; исходя из опыта,",
+      "la": "A posteriori"
+    },
+    {
+      "ru": "В отсутствии больного",
+      "la": "Absente aegroto"
+    },
+    {
+      "ru": "Светя другим, сгораю сам.",
+      "la": "Aliis inserviendo consumor"
+    },
+    {
+      "ru": "Кормящая мать, мать-кормилица",
+      "la": "Alma mater"
+    },
+    {
+      "ru": "Припоминание обстоятельств",
+      "la": "Anamnesis morbi"
+    },
+    {
+      "ru": "Искусством и человеколюбием, трудом и",
+      "la": "Arte et humanitate, labore et scientia"
+    },
+    {
+      "ru": "Золотая середина",
+      "la": "Aurea mediocritas"
+    },
+    {
+      "ru": "- Хорошо распознаётся, хорошо лечится",
+      "la": "Bene dignoscĭtur, bene curātur"
+    },
+    {
+      "ru": "Замкнутый круг",
+      "la": "Circulus vitiosus"
+    },
+    {
+      "ru": "Быстрее, выше, сильнее!",
+      "la": "Citius, altius, fortius!"
+    },
+    {
+      "ru": "Мыслю, следовательно, существую.",
+      "la": "Cogito ergo sum"
+    },
+    {
+      "ru": "Мыслю, следовательно, существую",
+      "la": "Cogito, ergo sum"
+    },
+    {
+      "ru": "Необходимое условие",
+      "la": "Conditio sine qua non"
+    },
+    {
+      "ru": "Привычка - вторая натура",
+      "la": "Consuetudo est altera natura"
+    },
+    {
+      "ru": "От кашля",
+      "la": "Contra tussim"
+    },
+    {
+      "ru": "- Против силы смерти нет лекарства в садах",
+      "la": "Contra vim mortis non medicamen in hortis"
+    },
+    {
+      "ru": "Путь жизни (Биография)",
+      "la": "Curriculum vitae"
+    },
+    {
+      "ru": "Диагноз на основании помогающих",
+      "la": "Diagnosis ex juvantibus"
+    },
+    {
+      "ru": "Разделяй и властвуй",
+      "la": "Divide et impera"
+    },
+    {
+      "ru": "Пока дышу, надеюсь.",
+      "la": "Dum spiro, spero"
+    },
+    {
+      "ru": "Твёрдая мозговая оболочка",
+      "la": "Dura mater"
+    },
+    {
+      "ru": "- Мы едим, чтобы жить, а не живем, чтобы есть",
+      "la": "Edĭmus ut vivāmus, non vivĭmus ut edāmus"
+    },
+    {
+      "ru": "Есть мера в вещах (делах).",
+      "la": "Est modus in rebus"
+    },
+    {
+      "ru": "Смертельный исход",
+      "la": "Exitus letalis"
+    },
+    {
+      "ru": "Маска Гиппократа, лицо умирающего",
+      "la": "Facies Hippocratica"
+    },
+    {
+      "ru": "Наружность обманчива",
+      "la": "Frontis nulla fides"
+    },
+    {
+      "ru": "Человек разумный",
+      "la": "Homo sapiens"
+    },
+    {
+      "ru": "Незнание не есть довод",
+      "la": "Ignorantia non est argumentum"
+    },
+    {
+      "ru": "В драже",
+      "la": "In dragee"
+    },
+    {
+      "ru": "В самую суть дела",
+      "la": "In medias res"
+    },
+    {
+      "ru": "«Тайно»",
+      "la": "In pectore"
+    },
+    {
+      "ru": "В таблетках, покрытых оболочкой",
+      "la": "In tabulettis obductis"
+    },
+    {
+      "ru": "Труд венчает всё",
+      "la": "Labor omnia vincit"
+    },
+    {
+      "ru": "По всем правилам искусства",
+      "la": "Lege artis"
+    },
+    {
+      "ru": "- Корни науки горьки, плоды сладки",
+      "la": "Litterarum radices amarae, fructus dulces"
+    },
+    {
+      "ru": "В болевой точке (месте)",
+      "la": "Loco dolenti"
+    },
+    {
+      "ru": "Место (наи)меньшего сопротивления.",
+      "la": "Locus minoris resistentiae"
+    },
+    {
+      "ru": "Дурная трава быстро растёт",
+      "la": "Mala herba cito crescit"
+    },
+    {
+      "ru": "Здоровый дух в здоровом теле",
+      "la": "Mens sana in corpore sano"
+    },
+    {
+      "ru": "- Изнеженность расслабляет тело",
+      "la": "Mollities corpus debilitat"
+    },
+    {
+      "ru": "- Лечит болезни врач, но излечивает природа",
+      "la": "Natura sanat, medicus curat morbos"
+    },
+    {
+      "ru": "- Нет лучшего врача, чем верный друг",
+      "la": "Nec quisquam melior medicus, quam fidus amicus"
+    },
+    {
+      "ru": "Нет медицины без латинского языка",
+      "la": "Non est medicina sine lingua Latina"
+    },
+    {
+      "ru": "Не много, но многое",
+      "la": "Non multa sed multum"
+    },
+    {
+      "ru": "Не идти вперед, значит идти назад.",
+      "la": "Non progrĕdi est regrĕdi"
+    },
+    {
+      "ru": "Существуют четыре признака",
+      "la": "Notae inflammationis sunt quattuor:"
+    },
+    {
+      "ru": "О времена, о нравы!",
+      "la": "O tempora, o mores!"
+    },
+    {
+      "ru": "Всё прекрасное редко",
+      "la": "Omnia praeclara rara"
+    },
+    {
+      "ru": "Трудом и старанием",
+      "la": "Opera et studio"
+    },
+    {
+      "ru": "Наилучшее лекарство - покой",
+      "la": "Optimum medicamentum quies est"
+    },
+    {
+      "ru": "Через тернии звездам",
+      "la": "Per aspera ad astra"
+    },
+    {
+      "ru": "Через рот",
+      "la": "Per os"
+    },
+    {
+      "ru": "- Первичным или вторичным натяжением",
+      "la": "Per primam aut per secundam intentionem"
+    },
+    {
+      "ru": "Через прямую кишку",
+      "la": "Per rectum"
+    },
+    {
+      "ru": "Мягкая мозговая оболочка",
+      "la": "Pia mater"
+    },
+    {
+      "ru": "Лень - мать всех пороков",
+      "la": "Pigritia mater vitiorum"
+    },
+    {
+      "ru": "Сытое брюхо к учению глухо.",
+      "la": "Plenus venter non studet libenter"
+    },
+    {
+      "ru": "В присутствии врача ничего",
+      "la": "Praesente medico nihil nocet"
+    },
+    {
+      "ru": "Для автора = Для меня",
+      "la": "Pro auctore = Pro me"
+    },
+    {
+      "ru": "На день; суточная порция лекарства",
+      "la": "Pro die"
+    },
+    {
+      "ru": "На приём",
+      "la": "Pro dosi"
+    },
+    {
+      "ru": "Для наркоза",
+      "la": "Pro narcosi"
+    },
+    {
+      "ru": "Сколько голов, столько умов",
+      "la": "Quod capĭta, tot sensus"
+    },
+    {
+      "ru": "Восстановление до неповреждён-",
+      "la": "Restitutio ad integrum"
+    },
+    {
+      "ru": "Анатомическое восстановление",
+      "la": "Restitutio anatomica"
+    },
+    {
+      "ru": "Восстановление функции",
+      "la": "Restitutio functionalis"
+    },
+    {
+      "ru": "Здоровье народа - наивысший закон",
+      "la": "Salus populi suprema lex"
+    },
+    {
+      "ru": "Святая святых",
+      "la": "Sancta sanctorum"
+    },
+    {
+      "ru": "Знание - сила",
+      "la": "Scientia potentia est"
+    },
+    {
+      "ru": "Поздно приходящим - кости",
+      "la": "Sero venientĭbus ossa"
+    },
+    {
+      "ru": "Общее состояние",
+      "la": "Status communis"
+    },
+    {
+      "ru": "Чистая доска",
+      "la": "Tabula rasa"
+    },
+    {
+      "ru": "Время лечит раны",
+      "la": "Tempus vulnera sanat"
+    },
+    {
+      "ru": "Неведомая земля.",
+      "la": "Terra incognĭta"
+    },
+    {
+      "ru": "Весь от ящичка (т.е. : одет с иголочки)",
+      "la": "Totus de capsula"
+    },
+    {
+      "ru": "Нет розы без шипов",
+      "la": "Ubi mel, ibi fel"
+    },
+    {
+      "ru": "Жизнь коротка, искусство вечно",
+      "la": "Vita brevis, ars longa"
+    }
+  ]
 }
